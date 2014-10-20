@@ -30,14 +30,15 @@
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+ <div id="wrap">
 	<section id="topheader">
 		<div id="hh">
-			<div class="col-lg-6 col-md-6">
+			<div class="col-lg-6 col-md-6 col-sm-3">
 				<div class="col-inner-hori">
 					<h1><a href="#" id="logo-main" class="history" alt="" title="">C◦mp◦se&nbsp;</a></h1>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-6 section-links">
+			<div class="col-lg-6 col-md-6 col-sm-7 section-links">
 				<ul class="sections left">
 					<li><a href="../#about" class="smoothScroll">About</a></li>
 					<li><a href="../#portfolio" class="smoothScroll">Speakers & Schedule</a></li>
@@ -46,7 +47,7 @@
 					<li><a href="../call" class="smoothScroll">CFP</a></li>
 				</ul>
 				<ul class="sections right">
-					<li><a href="#venue" class="smoothScroll">Register</a></li>
+					<li><a href="http://www.meetup.com/NY-Haskell/">Register</a></li>
 				</ul>
 			</div>
 		</div>
@@ -70,35 +71,49 @@
 		<div id="menuToggle"><i class="fa fa-bars"></i></div>
 	</nav>
 
-	<div class="sep contact" data-stellar-background-ratio="0.5"></div>
+
+	<! -- SERVICE SECTION -->
+	<section id="services" name="services"></section>
+	<div id="servicewrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8-offset-2 centered">
+					<h1>C◦mp◦se</h1>
+					<h3>A conference for Haskell, OCaml, and F# </h3>
+					<p><center><img class="img-responsive" src="../assets/img/about.png"/></center>
+					</p>
+
+				</div><!-- /col-lg-8 -->
+			</div><! --/row -->
+
+		</div><! --/container -->
+	</div><! --/servicewrap -->
+
+	<! -- Venue SECTION -->
+	<section id="venue" name="venue"></section>
+	<div id="servicewrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 centered">
+					<h1>Friday</h1>
+					<h3>Pivotal Labs</h3>
+					<p>625 Avenue of the Americas (2nd Floor) <br />
+					   New York, NY 10011 </p>
+				</div><!-- /col-lg-8 -->
+				<div class="col-lg-6 centered">
+					<h1>Saturday & Sunday</h1>
+					<h3>Spotify USA Inc</h3>
+					<p>45 W. 18th Street (7th Floor) <br />
+					   New York, NY 10011</p>
+				</div><!-- /col-lg-8 -->
+			</div><! --/row -->
+
+		</div><! --/container -->
+	</div><! --/servicewrap -->
 
 	<section id="about" name="about"></section>
 	<div id="aboutwrap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 name">
-					<img class="img-responsive" src="../assets/img/about.png">
-					<p>Venues</p>
-					<i class="fa fa-building-o"></i>
-				</div><! --/col-lg-4-->
-				<div class="col-lg-8 name-desc">
-					<h2>C◦mp◦se</h2>
-					<div class="name-zig"></div>
 
-					<div class="col-md-6">
-						<p>Friday Location</p>
-						<p>Saturday Location</p>
-						<p>Sunday Location</p>
-					</div>
-					<div class="col-md-6">
-						<p></p>
-					</div>
-
-				</div><! --/col-lg-8-->
-
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- /aboutwrap -->
 
 		<div class="container">
 			<div class="row mt centered">
@@ -155,65 +170,49 @@
 	</div><! --/Portfoliowrap -->
 
 
-	<! -- SERVICE SECTION -->
-	<section id="services" name="services"></section>
-	<div id="servicewrap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8-offset-2 centered">
-					<h1>Registration</h1>
-					<h3>Tagline</h3>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				</div><!-- /col-lg-8 -->
-			</div><! --/row -->
+	<div id="footer" style="display: block;">
+	  	<div id="footer-inner">
+	    	<div id="footer-auto">
 
+	    	 	<div class="col-lg-12">
+	    	 		<div class="col-inner-hori">
+	    	 			<hr>
+	    	 		</div>
+	    	 	</div>
 
+	    	 	<div class="col-lg-4">
+	    	 		<div class="col-inner-hori">
+	    	 			<a href="http://composeconference.org" class="history">Compose Conference</a><br>
+	    				The practice and craft of functional programming</div>
+	    	 	</div>
+	    	  	<div class="col-lg-2">
+	    	  		<div class="col-inner-hori">
+	    	  			<p>Jan 30 - Feb 1, 2015<br> Manhattan, NYC</p>
+	    	  		</div>
+	    	  	</div>
+	    	  	<div class="col-lg-3">
+	    	  		<div class="col-inner-hori">
+	    				  <p><a href="mailto:info@composeconference.org">info@composeconference.org</a><br></p>
+	    	  		</div>
+	    	  	</div>
+	    	  	<div id="social-icons" class="col-lg-3">
+	    	  		<div class="col-inner-hori align-right">
+	      				<a href="http://instagram.com/" target="_blank" id="instagram-icon" class="right">
+	      					<i class="fa fa-instagram fa-2x fa-fw"></i>
+	      				</a>
+	      				<a href="http://www.linkedin.com/" target="_blank" id="linkedin-icon" class="right">
+	      					<i class="fa fa-linkedin fa-2x fa-fw"></i>
+	      				</a>
+	      				<a href="https://twitter.com/composeconference" target="_blank" id="twitter-icon" class="right">
+	      					<i class="fa fa-twitter fa-2x fa-fw"></i>
+	      				</a>
+	    	  		</div>
+	    	  	</div>
 
-		</div><! --/container -->
-	</div><! --/servicewrap -->
-
-	<! -- SERVICE SECTION -->
-	<section id="contact" name="contact"></section>
-	<! -- CONTACT SEPARATOR -->
-
-	<div id="contactwrap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3">
-					<p>Venue</p>
-					<p>Friday - Location</p>
-					<p>
-						<small>0000 Num Ave<br/>
-						38399, New York,<br/>
-						USA.</small>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p>Venue</p>
-					<p>Saturday & Sunday - Location</p>
-					<p>
-						<small>0000 Street St<br/>
-						38399, New York,<br/>
-						USA.</small>
-					</p>
-				</div>
-				<div class="col-lg-6">
-					<!--form role="form">
-					  <div class="form-group">
-					    <label for="exampleInputName1">Your Name</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
-					    <label for="exampleInputEmail1">Email address</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-					    <label for="exampleInputText1">Message</label>
-					    <textarea class="form-control" rows="3"></textarea>
-					  </div>
-					  <button type="submit" class="btn btn-default">Submit</button>
-					</form-->
-				</div>
-
-			</div><! --/row -->
-		</div><!-- /container -->
+	      </div>
+	  	</div>
 	</div>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -240,6 +239,6 @@
           jQuery(".fancybox").fancybox();
       });
 	   </script>
-
+</div>
   </body>
 </html>

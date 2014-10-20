@@ -13,7 +13,6 @@
    Base Styles, Bootstrap Modifications & Fonts Import
    ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
 html,
@@ -82,7 +81,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Oswald", sans-serif;
+	font-family: "Avenir", "Lato", sans-serif;
 	font-weight: 300;
 }
 
@@ -114,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu h1.logo a {
-	font-family: "Oswald", sans-serif;
+	font-family: "Avenir", "Lato", sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	letter-spacing: 0.15em;
@@ -252,7 +251,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #wrap, #hh{
     max-width: 1512px;
-    min-width: 1024px;
     margin: 0 auto;
     margin-top: 0;
 }
@@ -366,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h1 {
 	color:#ffffff;
-	margin-top: 90px;
+	margin-top: 30px;
 	padding-bottom: 30px;
     font-family: 'Avenir', 'Lato', sans-serif;
 	font-size: 100px;
@@ -421,7 +419,6 @@ h1, h2, h3, h4, h5, h6 {
 	background-repeat: no-repeat;
 	height: 450px;
 	position: relative;
-    background-size:cover;
 }
 .about {
 	background-image: url(../img/hacnyc.jpg);
@@ -472,6 +469,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .collaborative {
     background-image: url(../img/collaborative-sep.jpg);
+}
+
+.coding {
+    background-image: url(../img/coding.jpg);
 }
 
 /* Service Wrap */
