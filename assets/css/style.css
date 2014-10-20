@@ -329,9 +329,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap {
-	background: url(../img/header.png) no-repeat center top;
-	margin-top: 30px;
-	padding-top:190px;
+	background: #eee url(../img/conference.jpg) no-repeat center top;
+	margin-top: 50px;
+	padding-top:100px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
