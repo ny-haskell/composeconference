@@ -5,7 +5,7 @@
  * Project Name: NYC Design
  * Version: 1.0
  * Date: 04-20-2014
- * URL: 
+ * URL:
  */
 
 
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 .menu a > i {
 	float: left;
 	display: inline-block;
-	vertical-align: middle; 
+	vertical-align: middle;
 	text-align: left;
 	width: 25px;
 	font-size: 14px;
@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
 	width:100%;
 	z-index:999;
 }
-	
+
 #topheader #hh{
 	margin-top: 36px;
 	margin-bottom: 24px;
@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 #topheader ul.sections li a {
 	color: #BBB;
 	font-weight: normal;
-	margin-right: 30px; 
+	margin-right: 30px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -339,8 +339,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topheader ul.sections.right a{
-	color: rgb(255, 122, 0);
-	margin-right:0;
+    color: rgb(255, 122, 0);
+    margin-right:0;
 }
 
 #headerwrap {
@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -597,7 +597,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-transition: opacity 0.4s;
   -o-transition: opacity 0.4s;
   transition: opacity 0.4s;
-  
+
 }
 
 .project:hover .photo-wrapper {
