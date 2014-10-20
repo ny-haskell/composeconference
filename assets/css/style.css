@@ -350,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+	min-height: 500px;
 	width: 100%;
 
     -webkit-background-size: 100%;
@@ -421,6 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-repeat: no-repeat;
 	height: 450px;
 	position: relative;
+    background-size:cover;
 }
 .about {
 	background-image: url(../img/hacnyc.jpg);
@@ -465,6 +466,14 @@ h1, h2, h3, h4, h5, h6 {
 	background-image: url(../img/schedule-sep.jpg);
 }
 
+.unconference {
+    background-image: url(../img/unconference-sep.jpg);
+}
+
+.collaborative {
+    background-image: url(../img/collaborative-sep.jpg);
+}
+
 /* Service Wrap */
 #servicewrap {
 	display: block;
@@ -500,11 +509,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Testimonials Wrap */
 #testimonials {
-	color: #fff;
 	display: block;
 	margin-top: 80px;
 	margin-bottom: 80px;
-	background-color: #343444;
+	background-color: #ddd;
 }
 
 /* Contact Wrap */
