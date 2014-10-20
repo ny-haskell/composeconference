@@ -248,24 +248,90 @@ h1, h2, h3, h4, h5, h6 {
    Wrap Sections
    ========================================================================== */
 #topheader{
-	color: #ccc;
-	font-size: 28px;
+	background:#fff;
+	left:0;
+	position: fixed;
+	top:0;
+	width:100%;
+	z-index:999;
+}
+	
+#topheader #hh{
+	margin-top: 36px;
+	margin-bottom: 24px;
+	overflow: auto;
+}
+
+.col-inner-hori {
+	margin: 6px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#topheader #logo-top {
+	display: block;
+	height: 33px;
+	width: 78px;
+	background: #fff;
+}
+
+#topheader #hh h1 {
+	margin-top:0;
+	font-weight:bold;
+}
+
+#topheader #hh h1 a{
+	color: #000;
+}
+
+#topheader .section-links{
+	font-size: 15px;
 	font-weight: bold;
-	padding: 30px 20px;
+	line-height: 20px;
 }
 
-#topheader ul{
+#topheader ul.sections{
 	list-style-type: none;
+	margin-top:14px;
+	padding-left:0;
 }
 
-#topheader li{
+#topheader ul.sections li{
 	display: inline;
+}
+
+#topheader ul.sections li a {
+	color: #BBB;
+	margin-right: 30px; 
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#topheader ul.sections li a.active {
+	color: #000;
+}
+
+#topheader ul.sections.left {
+	width: 80%;
+	float:left;
+	overflow: auto;
+}
+
+#topheader ul.sections.right {
+	width:20%;
+	overflow: auto;
+	float:right;
+}
+
+#topheader ul.sections.right a{
+	color: rgb(255, 122, 0);
+	margin-right:0;
 }
 
 #headerwrap {
 	background: url(../img/header.png) no-repeat center top;
-	margin-top: 0px;
-	padding-top:160px;
+	margin-top: 30px;
+	padding-top:190px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
