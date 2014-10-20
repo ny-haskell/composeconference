@@ -517,6 +517,49 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 10px;
 }
 
+#footer {
+    color: #222;
+    width: 100%;
+    padding-top: 0;
+    display: none;
+    position: absolute;
+    left: 0;
+}
+
+#footer hr {
+    margin-bottom: 30px;
+    padding: 0;
+    border-top: 1px solid #DEDEE1;
+    height: 0;
+    width: 100%;
+}
+
+#footer-inner, #tweet-inner {
+    overflow: auto;
+    margin: 0 auto;
+}
+
+#footer-inner, #tweet-inner {
+    max-width: 1512px;
+    min-width: 1024px;
+}
+
+#footer-auto, #tweet-auto {
+    margin-left: 44px;
+    margin-right: 44px;
+    position: relative;
+    margin-bottom: 60px;
+    overflow:auto;
+}
+
+.col-inner-hori.align-right{
+    text-align: right;
+}
+
+#instagram-icon, #linkedin-icon, #twitter-icon {
+    size: 20px;
+    color: #bbb;
+}
 
 /* Gallery Configuration */
 .photo-wrapper {
