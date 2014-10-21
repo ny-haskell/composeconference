@@ -415,6 +415,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+nav+.sep{
+    margin-top: 97px;
+}
 /* Separator About - Parallax Section */
 .sep {
 	background-attachment: fixed;
@@ -433,6 +436,8 @@ h1, h2, h3, h4, h5, h6 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin-left: auto;
+margin-right: auto;
 }
 .about {
 	background-image: url(../img/hacnyc.jpg);
