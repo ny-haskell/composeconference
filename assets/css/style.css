@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	top: 0;
 	left: 60px;
-	background: #006C58;
+	background: #006652;
 	width: 200px;
 	height: 100%;
 }
@@ -115,16 +115,16 @@ h1, h2, h3, h4, h5, h6 {
 .menu h1.logo a {
 	font-family: "Avenir", "Lato", sans-serif;
 	font-size: 16px;
-	font-weight: 700;
+	font-weight: 400;
 	letter-spacing: 0.15em;
 	line-height: 40px;
 	text-transform: uppercase;
 	color: #ffffff;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 .menu h1.logo a:hover {
-	color: #f85c37;
+	/*color: #F29100;*/
 }
 
 .menu img.logo {
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu a {
-	margin-left: 20px;
+	padding-left: 20px;
 	color: #B0B0B0;
 	display: block;
 	font-size: 12px;
@@ -145,6 +145,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu a:hover {
 	color: #ffffff;
+    text-decoration: none;
+    background-color: #16A085;
 }
 
 .menu a:active {
@@ -167,11 +169,11 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 	position: absolute;
 	font-size: 14px;
-	color: #808080;
-	width: 40px;
+	color: #CCC;
+	width: 20px;
 	height: 40px;
 	line-height: 40px;
-	top: 20px;
+	top: 15px;
 	right: 5px;
 	-webkit-transition: all .1s ease-in-out;
 	   -moz-transition: all .1s ease-in-out;
