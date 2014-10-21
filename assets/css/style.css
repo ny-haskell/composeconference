@@ -69,10 +69,10 @@ body {
 }
 
 body {
-    font-family: "Lato" sans-serif;
+    font-family: "Avenir", "Lato" sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #000;
+    color: #777;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	top: 0;
 	left: 60px;
-	background: #1a1a1a;
+	background: #006C58;
 	width: 200px;
 	height: 100%;
 }
@@ -134,10 +134,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu a {
 	margin-left: 20px;
-	color: #808080;
+	color: #B0B0B0;
 	display: block;
 	font-size: 12px;
-	font-weight: 700;
+	font-weight: 500;
 	line-height: 40px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
@@ -261,13 +261,13 @@ h1, h2, h3, h4, h5, h6 {
 	position: fixed;
 	top:0;
 	width:100%;
-	z-index:999;
+	z-index:9;
 }
 
 #topheader #hh{
 	margin-top: 36px;
 	margin-bottom: 24px;
-	overflow: auto;
+	/*overflow: auto;*/
 }
 
 .col-inner-hori {
@@ -306,11 +306,11 @@ h1, h2, h3, h4, h5, h6 {
 	padding-left:0;
 }
 
-#topheader ul.sections li{
+#topheader ul.sections > li{
 	display: inline;
 }
 
-#topheader ul.sections li a {
+#topheader ul.sections > li > a {
 	color: #BBB;
 	font-weight: normal;
 	margin-right: 30px;
