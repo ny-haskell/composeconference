@@ -31,45 +31,53 @@
 
   <body data-spy="scroll" data-offset="0" data-target="#theMenu">
     <div id="wrap">
-	<section id="topheader">
-		<div id="hh">
-			<div class="col-lg-6 col-md-6 col-sm-3">
-				<div class="col-inner-hori">
-					<h1><a href="../" id="logo-main" class="history" alt="" title="">C◦mp◦se&nbsp;</a></h1>
-				</div>
-			</div>
-            <div class="col-lg-6 col-md-6 col-sm-7 section-links">
-                <ul class="sections left">
-                    <li><a href="../#about" class="smoothScroll">About</a></li>
-                    <li><a href="../#portfolio" class="smoothScroll">Speakers & Schedule</a></li>
+    <section id="topheader">
+        <div id="hh">
+            <div class="col-lg-6 col-md-6">
+                <div class="col-inner-hori">
+                    <h1><a href="../" id="logo-main" class="history" alt="" title="">C◦mp◦se&nbsp;</a></h1>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-3">
+                <ul class="sections">
+                    <li><a href="../#topics" class="smoothScroll">Speakers</a></li>
+                    <li><a href="#" class="smoothScroll">Program</a></li>
                     <li><a href="../unconference" class="smoothScroll">Unconference</a></li>
-                    <li><a href="../info" class="smoothScroll">Info</a></li>
-                    <li><a href="../call" class="active smoothScroll">CFP</a></li>
-                </ul>
-                <ul class="sections right">
-                    <li><a href="http://www.meetup.com/NY-Haskell/">Register</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Attendees <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="../info" class="smoothScroll">Travel</a></li>
+                        <li><a href="../conduct" class="smoothScroll">Policies</a></li>
+                        <li><a href="../info" class="smoothScroll">Volunteer</a></li>
+                        <li class="divider"></li>
+                        <li><a href="../info" class="smoothScroll">Job Fair</a></li>
+                        <li class="divider"></li>
+                        <li><a href="../call" class="smoothScroll">CFP</a></li>
+                      </ul>
+                    </li>
+
                 </ul>
             </div>
-		</div>
-	</section>
-	<!-- Menu -->
-	<nav class="menu" id="theMenu">
-		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">C◦mp◦se</a></h1>
-			<i class="fa fa-times menu-close"></i>
-			<a href="#home" class="smoothScroll">Home</a>
-			<a href="#about" class="smoothScroll">About</a>
-			<a href="#portfolio" class="smoothScroll">Speakers</a>
-			<a href="#services" class="smoothScroll">Agenda</a>
-			<a href="#contact" class="smoothScroll">Register</a>
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-github"></i></a>
-			<a href="#"><i class="fa fa-envelope"></i></a>
-		</div>
+        </div>
+        </div>
+    </section>
+    <!-- Menu -->
+    <nav class="menu" id="theMenu">
+        <div class="menu-wrap">
+            <h1 class="logo"><a href="index.html#home">C◦mp◦se</a></h1>
+            <i class="fa fa-times menu-close"></i>
+            <a href="../#about" class="smoothScroll">About</a>
+            <a href="#" class="smoothScroll">Submit</a>
+            <a href="http://meetup.com/ny-haskell" class="smoothScroll">Register</a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
 
-		<!-- Menu button -->
-		<div id="menuToggle"><i class="fa fa-bars"></i></div>
-	</nav>
+        <!-- Menu button -->
+        <div id="menuToggle"><i class="fa fa-bars"></i></div>
+    </nav>
+
 
 	<section id="about" name="about"></section>
 	<div id="aboutwrap">
@@ -122,7 +130,7 @@
             </div><!-- /row -->
         </div><!-- /container -->
     </div><!-- /aboutwrap -->
-<h1>&nbsp;</h1>
+    <h1>&nbsp;</h1>
 
     <div id="footer" style="display: block;">
         <div id="footer-inner">
@@ -136,8 +144,9 @@
 
                 <div class="col-lg-4">
                     <div class="col-inner-hori">
-                        <a href="http://composeconference.org" class="history">Compose Conference</a><br>
-                        The practice and craft of functional programming</div>
+                        <a href="http://composeconference.org" class="history">C◦mp◦se :: Conference</a><br>
+                        The practice and craft of functional programming<br />
+                        <a href="../conduct">Code of Conduct</a></div>
                 </div>
                 <div class="col-lg-2">
                     <div class="col-inner-hori">
@@ -151,13 +160,13 @@
                 </div>
                 <div id="social-icons" class="col-lg-3">
                     <div class="col-inner-hori align-right">
-                        <a href="http://instagram.com/" target="_blank" id="instagram-icon" class="right">
-                            <i class="fa fa-instagram fa-2x fa-fw"></i>
+                        <a href="" target="_blank" id="linkedin-icon" class="right">
+                            <i class="fa fa-envelope fa-2x fa-fw"></i>
                         </a>
-                        <a href="http://www.linkedin.com/" target="_blank" id="linkedin-icon" class="right">
-                            <i class="fa fa-linkedin fa-2x fa-fw"></i>
+                        <a href="http://github.com/" target="_blank" id="instagram-icon" class="right">
+                            <i class="fa fa-github fa-2x fa-fw"></i>
                         </a>
-                        <a href="https://twitter.com/composeconference" target="_blank" id="twitter-icon" class="right">
+                        <a href="https://twitter.com/composeconf" target="_blank" id="twitter-icon" class="right">
                             <i class="fa fa-twitter fa-2x fa-fw"></i>
                         </a>
                     </div>
