@@ -339,7 +339,6 @@ h1, h2, h3, h4, h5, h6 {
 #headerwrap {
 	background: url(../img/conference.jpg) no-repeat;
 	margin-top: 122px;
-	padding-top:25px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -361,11 +360,24 @@ h1, h2, h3, h4, h5, h6 {
 #headerwrap h1 {
 	color:#ffffff;
 	margin-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 130px;
     font-family: 'Avenir', 'Lato', sans-serif;
 	font-size: 100px;
 	font-weight: normal;
 	text-shadow: 2px 2px 2px #000;
+}
+
+.herro{
+    background: rgba(20,20,25,0.65);
+    height: 600px;
+    padding-top:25px;
+    width: 700px;
+}
+
+.reg01{
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
 }
 
 /* About Wrap & Conf */
