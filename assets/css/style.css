@@ -304,26 +304,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topheader ul.sections{
-	list-style-type: none;
-	margin-top:14px;
 	padding-left:0;
+} 
+
+#topheader ul.sections > li > a{
+    background: #fff;
+    color: #BBB;
 }
 
-#topheader ul.sections > li{
-	display: inline;
-}
-
-#topheader ul.sections > li > a {
-	color: #BBB;
-	font-weight: normal;
-	margin-right: 30px;
-	padding-top: 0;
-	padding-bottom: 0;
-}
-
-#topheader ul.sections li a.active {
+#topheader ul.sections li a.active,
+#topheader ul.sections li a:hover  {
 	color: #000;
 }
+
 
 #topheader ul.sections.left {
 	width: 80%;
