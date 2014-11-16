@@ -304,26 +304,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topheader ul.sections{
-	list-style-type: none;
-	margin-top:14px;
 	padding-left:0;
+} 
+
+#topheader ul.sections > li > a{
+    background: #fff;
+    color: #BBB;
 }
 
-#topheader ul.sections > li{
-	display: inline;
-}
-
-#topheader ul.sections > li > a {
-	color: #BBB;
-	font-weight: normal;
-	margin-right: 30px;
-	padding-top: 0;
-	padding-bottom: 0;
-}
-
-#topheader ul.sections li a.active {
+#topheader ul.sections li a.active,
+#topheader ul.sections li a:hover  {
 	color: #000;
 }
+
 
 #topheader ul.sections.left {
 	width: 80%;
@@ -346,7 +339,6 @@ h1, h2, h3, h4, h5, h6 {
 #headerwrap {
 	background: url(../img/conference.jpg) no-repeat;
 	margin-top: 122px;
-	padding-top:25px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -368,11 +360,24 @@ h1, h2, h3, h4, h5, h6 {
 #headerwrap h1 {
 	color:#ffffff;
 	margin-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 130px;
     font-family: 'Avenir', 'Lato', sans-serif;
 	font-size: 100px;
 	font-weight: normal;
 	text-shadow: 2px 2px 2px #000;
+}
+
+.herro{
+    background: rgba(20,20,25,0.65);
+    height: 600px;
+    padding-top:25px;
+    width: 700px;
+}
+
+.reg01{
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
 }
 
 /* About Wrap & Conf */
@@ -619,7 +624,7 @@ margin-right: auto;
     text-align: right;
 }
 
-#instagram-icon, #linkedin-icon, #twitter-icon {
+#instagram-icon, #mail-icon, #twitter-icon {
     size: 20px;
     color: #bbb;
 }
