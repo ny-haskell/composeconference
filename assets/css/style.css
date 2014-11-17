@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #topheader ul.sections{
 	padding-left:0;
-} 
+}
 
 #topheader ul.sections > li > a{
     background: #fff;
@@ -419,6 +419,30 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.45;
 	font-weight: 300;
 }
+
+.name .logo img{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.name .logo img:hover{
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.name .logo a, .name .logo a:visited {
+    text-decoration: none;
+    color: #999;
+}
+
+
+.name .logo a:hover{
+    text-decoration: none;
+    color: #428BCA;
+}
+
 
 nav+.sep{
     margin-top: 97px;
