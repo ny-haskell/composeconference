@@ -380,6 +380,22 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
 }
 
+.sublink{
+    color:#ddd;
+    text-decoration: none;
+    background: rgba(50,50,50,0.5);
+    margin:10px;
+}
+
+.sublink:hover{
+    color:#fff;
+    text-decoration: none;
+    background: rgba(50,90,80,0.5);
+    margin:10px;
+    border-radius:8px;
+}
+
+
 /* About Wrap & Conf */
 #aboutwrap {
 	margin-top: 20px;
