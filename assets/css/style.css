@@ -479,8 +479,9 @@ nav+.sep{
     -o-background-size: cover;
     background-size: cover;
     margin-left: auto;
-margin-right: auto;
+    margin-right: auto;
 }
+
 .about {
 	background-image: url(../img/hacnyc.jpg);
 }
@@ -527,18 +528,22 @@ margin-right: auto;
 
 .unconference {
     background-image: url(../img/unconference-sep.jpg);
+    background-size: cover;
 }
 
 .collaborative {
     background-image: url(../img/collaborative-sep.jpg);
+    background-size: cover;
 }
 
 .coding {
     background-image: url(../img/coding.jpg);
+    background-size: cover;
 }
 
 .talk {
     background-image: url(../img/talk.jpg);
+    background-size: cover;
 }
 
 /* Service Wrap */
