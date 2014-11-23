@@ -371,7 +371,12 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(20,20,25,0.75);
     height: 600px;
     padding-top:25px;
-    width: 700px;
+}
+
+@media (min-width: 700px) {
+    .herro {
+        width: 700px;
+    }
 }
 
 .reg01{
