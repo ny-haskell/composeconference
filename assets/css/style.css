@@ -336,15 +336,32 @@ h1, h2, h3, h4, h5, h6 {
     margin-right:0;
 }
 
-#headerwrap {
-	background: url(../img/conference.jpg) no-repeat;
-	margin-top: 122px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 600px;
-	width: 100%;
-    max-width: 1512px;
+#landingheader {
+    background: #eee;
+    margin-top:80px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+#landingheader .mainblock{
+    height: 450px;
+    background: #2D2E32;
+    color: #fff;
+}
+#landingheader h1 {
+    margin-top: 0;
+    color: #fff;
+    padding-top: 100px;
+}
+#landingheader .view {
+    background: url(../img/conference.jpg) no-repeat;
+    margin-top: 0;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 280px;
+    width: 100%;
+    /*max-width: 1512px;*/
 
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -357,27 +374,47 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-#headerwrap h1 {
-	color:#ffffff;
-	margin-top: 30px;
-	padding-bottom: 130px;
-    font-family: 'Avenir', 'Lato', sans-serif;
-	font-size: 100px;
-	font-weight: normal;
-	text-shadow: 2px 2px 2px #000;
+#landingheader .block{
+    margin-top:10px;
 }
 
-.herro{
-    background: rgba(20,20,25,0.75);
-    height: 600px;
-    padding-top:25px;
+.block + .block{
+    padding-left:0;
 }
 
+#landingheader .block .reg{
+    background: #EDA70E;
+    color: #fff;
+    text-align: center;
+    vertical-align: center;
+    padding-top:30px;
+    height: 160px;
+}
 
-.reg01{
-    font-weight: bold;
-    padding: 20px;
-    font-size: 20px;
+#landingheader .block .submit{
+    background: #0aa574;
+    padding-top:20px;
+    height: 160px;
+
+}
+
+#landingheader .block .volunteer{
+    background: #0B7C5E;
+    padding-top:20px;
+    height: 160px;
+
+}
+
+.btn-link{
+    color: #ddd;
+    text-decoration: none;
+
+}
+
+.btn-link:hover{
+    color:#FFF;
+    text-decoration: none;
+
 }
 
 .sublink{
@@ -546,36 +583,36 @@ nav+.sep{
     background-size: cover;
 }
 
-/* Service Wrap */
-#servicewrap {
+/* Topics & Loactions Sections */
+#locations {
 	display: block;
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
 
-#servicewrap h1 {
+#locations h1 {
 	font-weight: 300;
 	text-align: center;
 	margin-bottom: 20px;
 }
 
-.service {
+.topic {
 	text-align: left;
 }
 
-.service small {
+.topic small {
 	font-size: 12px;
 	font-weight: bold
 }
 
-.service i {
+.topic i {
 	float: left;
 	margin-right: 15px;
 	font-size: 30px;
 	vertical-align: middle;
 }
 
-.service .text {
+.topic .text {
 	color: #767676
 }
 
