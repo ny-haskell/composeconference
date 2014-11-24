@@ -346,9 +346,16 @@ h1, h2, h3, h4, h5, h6 {
 #landingheader .mainblock{
     background: #2D2E32;
     color: #fff;
+    height: 300px;
 }
 
-#landingheader h1 {
+#landingheader .unconfblock{
+    margin-top: 10px;
+    background: #E0D9D9;
+    height: 160px;
+}
+
+#landingheader .mainblock h2 {
     margin-top: 0;
     color: #fff;
     padding-top: 100px;
@@ -359,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align:center;
     background-attachment: relative;
     background-position: center center;
-    min-height: 280px;
+    min-height: 300px;
     width: 100%;
     /*max-width: 1512px;*/
 
@@ -786,10 +793,6 @@ nav+.sep{
     #footer-inner, #tweet-inner {
         max-width: 1512px;
         min-width: 1024px;
-    }
-
-    #landingheader .mainblock{
-        height: 450px;
     }
 }
 
