@@ -470,6 +470,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+.words-nomargin{
+    padding-left:0;
+}
+
 .name .logo img{
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -502,7 +506,6 @@ nav+.sep{
 	background-attachment: fixed;
 	background-position: 50% 0;
 	background-repeat: no-repeat;
-	height: 450px;
 	position: relative;
     width: 100%;
     max-width: 1512px;
@@ -519,8 +522,26 @@ nav+.sep{
     margin-right: auto;
 }
 
+@media (max-width: 768px) {
+    .sep {
+        height: 150px;
+    }
+}
+
+@media (max-width: 908px) {
+    .sep {
+        height: 250px;
+    }
+}
+
+@media (min-width: 908px) {
+    .sep {
+        height: 450px;
+    }
+}
 .about {
-	background-image: url(../img/hacnyc.jpg);
+	background: url(../img/hacnyc.jpg) no-repeat center top;
+    background-size: cover;
 }
 
 /* Portfolio Wrap Section */
@@ -564,22 +585,22 @@ nav+.sep{
 }
 
 .unconference {
-    background-image: url(../img/unconference-sep.jpg);
+    background: url(../img/unconference-sep.jpg) no-repeat center bottom;
     background-size: cover;
 }
 
 .collaborative {
-    background-image: url(../img/collaborative-sep.jpg);
+    background: url(../img/collaborative-sep.jpg) no-repeat center bottom;
     background-size: cover;
 }
 
 .coding {
-    background-image: url(../img/coding.jpg);
+    background: url(../img/coding.jpg) no-repeat center bottom;
     background-size: cover;
 }
 
 .talk {
-    background-image: url(../img/talk.jpg);
+    background: url(../img/talk.jpg) no-repeat center bottom;
     background-size: cover;
 }
 
