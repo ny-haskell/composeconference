@@ -344,10 +344,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #landingheader .mainblock{
-    height: 450px;
     background: #2D2E32;
     color: #fff;
 }
+
 #landingheader h1 {
     margin-top: 0;
     color: #fff;
@@ -765,6 +765,10 @@ nav+.sep{
     #footer-inner, #tweet-inner {
         max-width: 1512px;
         min-width: 1024px;
+    }
+
+    #landingheader .mainblock{
+        height: 450px;
     }
 }
 
