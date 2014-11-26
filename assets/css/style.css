@@ -560,12 +560,14 @@ nav+.sep{
 }
 
 /* Portfolio Wrap Section */
+#committeewrap,
 #portfoliowrap {
 	display: block;
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
 
+#committeewrap h1,
 #portfoliowrap h1 {
 	font-weight: 300;
 	text-align: center;
@@ -579,6 +581,7 @@ nav+.sep{
 	margin-bottom: 60px;
 }
 
+#committeewrap i,
 #portfoliowrap i {
 	font-size: 50px;
 }
