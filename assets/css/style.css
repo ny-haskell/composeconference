@@ -581,6 +581,19 @@ nav+.sep{
 	margin-bottom: 60px;
 }
 
+ul.speakers {
+    list-style-type: square;
+    padding-left:20px;
+}
+
+ul.speakers li {
+    padding-bottom:10px;
+}
+/*ul.speakers li:before {
+    content: '\f005';
+    font-family: 'FontAwesome';
+}*/
+
 #committeewrap i,
 #portfoliowrap i {
 	font-size: 50px;
