@@ -804,7 +804,10 @@ ul.speakers li {
 	margin-top: 25px;
 }
 
-
+.panel-body{
+    min-height: 105px;
+    max-height: 110px;
+}
 
 @media (min-width: 700px) {
     .herro {
