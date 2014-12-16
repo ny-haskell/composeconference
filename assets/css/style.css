@@ -556,7 +556,7 @@ nav+.sep{
     }
 }
 .about {
-	background: url(../img/hacnyc.jpg) no-repeat center top;
+	background: url(../img/photos/pisano_3.jpg) no-repeat center top;
     background-size: cover;
 }
 
@@ -612,27 +612,22 @@ ul.speakers li {
 }
 
 .portfolio {
-	background: url(../img/schedule-sep.jpg) no-repeat center bottom;
+	background: url(../img/photos/pisano_1.jpg) no-repeat center bottom;
     background-size: cover;
 }
 
 .unconference {
-    background: url(../img/unconference-sep.jpg) no-repeat center bottom;
-    background-size: cover;
-}
-
-.collaborative {
-    background: url(../img/collaborative-sep.jpg) no-repeat center bottom;
+    background: url(../img/photos/pisano_5.jpg) no-repeat center bottom;
     background-size: cover;
 }
 
 .coding {
-    background: url(../img/coding.jpg) no-repeat center bottom;
+    background: url(../img/photos/pisano_4.jpg) no-repeat center bottom;
     background-size: cover;
 }
 
 .talk {
-    background: url(../img/talk.jpg) no-repeat center bottom;
+    background: url(../img/photos/pisano_2.jpg) no-repeat center bottom;
     background-size: cover;
 }
 
@@ -709,7 +704,7 @@ ul.speakers li {
 }
 
 .contact {
-	background-image: url(../img/contact-sep.jpg);
+	background-image: url(../img/photos/pisano_6.jpg);
 }
 
 #contactwrap label {
