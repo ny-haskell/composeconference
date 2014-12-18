@@ -806,7 +806,11 @@ ul.speakers li {
 
 .panel-body{
     min-height: 105px;
-    max-height: 110px;
+    max-height: 120px;
+}
+
+.panel-body img{
+    max-height: 90px;
 }
 
 @media (min-width: 700px) {
