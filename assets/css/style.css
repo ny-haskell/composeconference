@@ -804,12 +804,12 @@ ul.speakers li {
 	margin-top: 25px;
 }
 
-.panel-body{
+.panel-default .panel-body{
     min-height: 105px;
     max-height: 120px;
 }
 
-.panel-body img{
+.panel-default .panel-body img{
     max-height: 90px;
 }
 
