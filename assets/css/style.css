@@ -811,6 +811,7 @@ ul.speakers li {
 
 .panel-default .panel-body img{
     max-height: 90px;
+    display: inline-block;
 }
 
 @media (min-width: 700px) {
