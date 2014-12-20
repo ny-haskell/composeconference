@@ -7,7 +7,5 @@
 				$('#theMenu').toggleClass('menu-open');
 			});
 
-            $('#carousel-sponsors').on('slide.bs.carousel', function () {
-              // do something…
-            })
+            $('#carousel-sponsors').carousel();
 })(jQuery)
