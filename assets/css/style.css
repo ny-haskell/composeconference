@@ -814,6 +814,23 @@ ul.speakers li {
     display: inline-block;
 }
 
+p.lead{
+    margin-left:25px;
+}
+
+blockquote.abstract{
+    font-size: 15px;
+    color: #888;
+    margin-left: 0px;
+    margin-right:40px;
+    border-left: 8px solid #fefeff;
+
+}
+
+p.lead + blockquote.abstract{
+    margin-top:-25px;
+}
+
 @media (min-width: 700px) {
     .herro {
         width: 700px;

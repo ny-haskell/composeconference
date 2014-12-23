@@ -123,9 +123,11 @@
                 <table class="table table-bordered" style="background: #fff">
                     <tr class="active"><th width="200">Time</th><th><small>Technical Keynote</small></th></tr>
                     <tr><td>7:00pm - 9:00pm</td><td>
-                        <b>Fundamentals of dependent type theory</b> - 
-                        <a href="/speakers/index.html#weirich">Dr. Stephanie Weirich</a>
-
+                        <p class="lead"><b>Fundamentals of dependent type theory</b> <br/>
+                            <small>
+                                <a href="/speakers/index.html#weirich">Dr. Stephanie Weirich</a>
+                            </small>
+                        </p> 
                     </td></tr>
                 </table>
 
@@ -143,36 +145,125 @@
                     <tr><td>9:00am - 9:25am</td><td>Registration<br/>Coffee & Tea served</td></tr>
                     <tr>
                         <td>9:25am - 11:40am</td><td>
-                            1. <b>Robots on Haskell</b> — 
+
+                        <p class="lead"><b>Robots on Haskell</b> <br/>
+                            <small>
                                 <a href="/speakers/index.html#cowley">Anthony Cowley</a>  (Invited talk)
-                            <br/>
-                            2. <b>Type providers and error reflection in Idris</b> — 
+                            </small>
+                        </p> 
+
+                        <p class="lead"><b>Type providers and error reflection in Idris</b> <br/>
+                            <small>
                                 <a href="/speakers/index.html#christiansen">David Christiansen</a>
-                            <br/>
-                            3. <b>Modules and Abstraction</b> — 
+                            </small>
+                        </p> 
+                        <blockquote class="abstract">
+                            <p>
+                                Idris is a pure, dependently typed programming language that aims to be usable for real work. However, there's more to a language than it's type system! This talk will demonstrate the construction of an embedded database query language in Idris, relying heavily on type providers and error reflection. 
+                            </p>
+                            <p>
+                                Idris's type providers, inspired by the feature of the same name in F#, allow effectful computations to be run at compile time to generate terms that can be used to type check later parts of the program. Unlike F# or Haskell, ordinary Idris functions can compute types, so an approach relying on compile-time code generation is not necessary. The embedded query language uses a type provider to statically check queries against the schema of a live database. 
+                            </p>
+                            <p>
+                                Error reflection is a feature that allows Idris libraries to define their own custom compiler errors. These are used to give useful feedback to users of the database library. 
+                            </p>
+                            <p>
+                                Although it will primarily consist of a live demonstration of writing Idris code, the talk will also touch on relevant aspects of the language implementation. 
+                            </p>
+                        </blockquote>
+
+                        <p class="lead"><b>Modules and Abstraction</b> <br/>
+                            <small>
                                 <a href="/speakers/index.html#martens">Chris Martens</a>
-                            <br/>
+                            </small>
+                        </p> 
+
+                        <blockquote class="abstract">
+                            <p>
+                                Mechanisms for abstraction have their roots in interpreting the existential quantifier from logic as a type. I'll describe Reynolds' idea of "representation independence" as a formal basis for specifying abstraction as a program property, and I will compare these seeds of theory to their modern implementations as module systems in Standard ML and OCaml.
+                            </p>
+                        </blockquote>
                         </td>
                     </tr>
                     <tr><td>11:40am - 12:50pm</td><td>Lunch</td></tr>
                     <tr><td>12:50pm - 3:05pm</td>
                         <td>
-                            4. <b>The F# Approach to Relaxation</b> — 
-                                <a href="/speakers/index.html#syme">Don Syme</a>  (Invited Talk)
+                            <p class="lead"><b>The F# Approach to Relaxation</b><br/>
+                                <small><a href="/speakers/index.html#syme">Don Syme</a>  (Invited Talk)</small>
+                            </p> 
+
+                            <p class="lead"><b>Managing Bioinformatics Pipelines Within OCaml</b> <br/>
+                                <small>
+                                    <a href="/speakers/index.html#mondet">Sebastien Mondet</a> and 
+                                    <a href="/speakers/index.html#hamerbacher">Jeff Hammerbacher</a>
+                                </small>
+                            </p> 
+                                
+                                <blockquote class="abstract">
+                                <p>
+                                    <a href="http://seb.mondet.org/software/ketrew/index.html">Ketrew</a> means *Keep Track of Experimental Workflows*: it is a workflow engine based on an Embedded Domain Specific Language. The EDSL is a simple OCaml library providing combinators to define complex and convoluted workflows (interdependent steps/programs using a lot of data, with many parameter variations, running on different hosts with various schedulers) and submit them to the engine. The engine takes care of orchestrating the run of those workflows, and keeping track everything that succeeds, fails, or gets lost. Ketrew can be a standalone application, or use a client-server architecture.
+                                </p>
+                                <p>
+                                    At Mount Sinai (the <a href="http://blog.hammerlab.org/">Hammer Lab</a>), we develop and use Ketrew to run bioinformatics pipelines on very large amounts of data. An example of such workflow would be our cancer immunotherapy pipeline. For a given patient, DNA is extracted for the tumor and compared with a healthy-tissue sample; these *“variants”* are used to design treatments.
+                                </p>
+                                <p>
+                                    Biomedical computational pipelines involve various long-running computational steps; for each of them, we want to run many parameter variations. In the same time, bioinformatics tools are famous for being quite “bad” software; they tend to fail in mysterious ways, for seemingly valid inputs. The computing infrastructure is also very diverse and gives little control to the end user. Ketrew is designed with many of those adverse conditions in mind; but it is also a quite generic tool not at all restricted to bioinformatics, it has been used for running backups, building websites, ensuring continuous integration, etc.
+                                </p>
+                                </blockquote>
+
+                            <p class="lead"><b>LVars: lattice-based data structures for deterministic parallel and distributed programming</b> <br/>
+                                <small>
+                                    <a href="/speakers/index.html#kuper">Lindesy Kuper</a>
+                                </small>
+                            </p> 
+
+
+                            <blockquote class="abstract">
+                                <p>
+                                    Parallel programming is notoriously difficult. A fundamental reason for this difficulty is that programs can yield inconsistent answers, or even crash, due to unpredictable interactions between parallel tasks. But it doesn't have to be this way: <i>guaranteed-deterministic</i> parallel programming models promise freedom from subtle, hard-to-reproduce nondeterministic bugs. In a deterministic program, the same input always produces the same output; in a guaranteed-deterministic parallel programming model, then, that property is true of every program written using the model, even when those programs are run in parallel. 
+                                </p>
+                                <p>
+                                    So, what are these these parallel programming models that guarantee determinism, and how do they work? In this talk, we'll survey the landscape of guaranteed-deterministic approaches to parallel programming. Then, we'll dig into lattice-based data structures, or <i>LVars</i>, which are the basis for a new guaranteed-deterministic parallel programming model that my colleagues and I developed. Throughout the talk, we'll look at examples written using <a href=" http://hackage.haskell.org/package/lvish">LVish</a>, our Haskell library for programming with LVars. Finally, we'll consider the relationship between LVars and conflict-free replicated data types for eventually consistent distributed systems, like the system that stores the contents of your Amazon shopping cart. 
+                                </p>
+                            </blockquote>
                             <br/>
-                            5. <b>Managing Bioinformatics Pipelines Within OCaml</b> — 
-                                <a href="/speakers/index.html#mondet">Sebastien Mondet</a> and 
-                                <a href="/speakers/index.html#hamerbacher">Jeff Hammerbacher</a>
-                            <br/>
-                            6. <b>LVars: lattice-based data structures for deterministic parallel and distributed 
-                            programming</b> — <a href="/speakers/index.html#kuper">Lindesy Kuper</a><br/>
                         </td>
                     </tr>
                     <tr><td>3:05pm - 3:20pm</td><td>Break</td></tr>
                     <tr><td>3:20pm - 5:35pm</td><td>
-                        7. <b>OCaml at Bloomberg</b>  — <a href="/speakers/index.html#ransan">Maxime Ransan</a> (Invited Talk)<br/>
-                        8. <b>Proving things about Biology</b>  — <a href="/speakers/index.html#ishtiaq">Samin Ishtiaq</a><br/>
-                        9. <b>elm-d3: Front-end Development without Frameworks</b>  — <a href="/speakers/index.html#eliopoulos">Spiros Eliopoulos</a>
+                        <p class="lead"><b>OCaml at Bloomberg</b> <br/>
+                            <small>
+                                 <a href="/speakers/index.html#ransan">Maxime Ransan</a> (Invited Talk)
+                            </small>
+                        </p> 
+
+                        <p class="lead"><b>Proving things about Biology</b> <br/>
+                            <small>
+                                 <a href="/speakers/index.html#ishtiaq">Samin Ishtiaq</a>
+                            </small>
+                        </p> 
+                        <blockquote class="abstract">
+                        <p>
+                            BMA is a tool for modeling and analyzing Systems Biology models, such as cellular-level descriptions of skin and blood. In this talk, I will describe the F# implementation of several static analysis-based provers that do the heavy lifting in BMA. These include a temporal property checker, and a fast, purpose-built stability checker that scales by composing a lot of local, small proofs together. 
+                        </p>
+                        <p>
+                            Though this domain (automatically proving properties of systems) is one that is known to be amenable to functional programming techniques, the BMA implementation exploits several F# features. Almost all the data structures are immutable collections like Set and Map. The main fixed-point loop is implemented using the Seq lazy sequences library: transforming the loop from a recursive function to a Seq.fold was quick, yielding code that is elegantly asynchronous, and allows the TypeScript-based UI to pause, step, and fast-forward the proof search. 
+                        </p>
+                        <p>
+                            The analyzer uses FParsec (a parser combinator library) to parse the definition of the model's update functions, and Z3 (an SMT solver) as the underlying basis of the provers. The whole application runs on Azure. 
+                        </p>
+                        </blockquote>
+
+                        <p class="lead"><b>elm-d3: Front-end Development without Frameworks</b> <br/>
+                            <small>
+                                 <a href="/speakers/index.html#eliopoulos">Spiros Eliopoulos</a>
+                            </small>
+                        </p> 
+                        <blockquote class="abstract">
+                        <p>
+                            D3's value goes far beyond visualization and DOM manipulation. Combined with a functional-reactive programming language such as the Elm, it serves as the basis for a system of declarative, composable views that eliminates the need for front-end development frameworks. elm-d3 is a library that that provides Elm bindings to D3, making such a system a reality. This talk will start with a brief introduction to the D3 JavaScript library. I will then walk through the CPS transformation that's used as runtime code for the bindings. Finally, I will present the type-safe Elm API, with examples. 
+                        </p>
+                        </blockquote>
                     </td></tr>
                     <tr><td>5:35-5:45pm</td><td>Closing</td></tr>
                 </table>
