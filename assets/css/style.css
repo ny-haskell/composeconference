@@ -582,6 +582,14 @@ nav+.sep{
 	margin-bottom: 60px;
 }
 
+.item.mb {
+    background: #fff;
+    max-height: 400px;
+    min-height: 400px;
+    padding-top: 40px;
+    border-radius: 4px;
+}
+
 ul.speakers {
     list-style-type: square;
     padding-left:20px;
@@ -676,8 +684,8 @@ ul.speakers li {
 }
 
 .carousel-control{
-    top:80px;
-    color: #428BCA;
+    top:180px;
+    color: rgba(33, 70, 103, 0.45);
     text-shadow:none;
 }
 .carousel-control:hover{
@@ -685,6 +693,10 @@ ul.speakers li {
 }
 .carousel-control.left, .carousel-control.right {
     background-image:none;
+}
+
+.carousel-control .fa{
+    font-size: 40px;
 }
 
 /* Contact Wrap */
