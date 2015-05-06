@@ -336,6 +336,26 @@ h1, h2, h3, h4, h5, h6 {
     margin-right:0;
 }
 
+#summaryrecap {
+    background: #143435;
+    border-radius: 3px;
+    color: #fff;
+    min-height: 485px;
+    padding-bottom:150px;
+    padding-top:130px;
+    text-align: center;
+    text-align: center;
+    vertical-align: center;
+}
+#summaryrecap h2, #summaryrecap h3{
+    color: #fff;
+}
+
+#summaryrecap a{
+    color: #ddd;
+    font-weight: bold;
+}
+
 #landingheader {
     margin-top: 80px;
     background: #eee;
