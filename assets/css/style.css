@@ -337,9 +337,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #landingheader {
+    margin-top: 80px;
     background: #eee;
     background: url(../img/header-background.png) repeat;
-    margin-top:80px;
     padding-top:50px;
     padding-bottom:40px;
 }
