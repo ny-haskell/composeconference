@@ -3,7 +3,7 @@ description: "The practice and craft of functional programming"
 archives: [2015]
 
 markdown: rdiscount
-permalink: pretty
+permalink: /:title/
 highlighter: pygments
 
 # Exclude these files from your production _site
