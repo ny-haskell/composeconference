@@ -1,0 +1,16 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body{% if page.klasa %} class="{{ page.klasa }}"{% endif %}>
+    {% include header.html %}
+        <div class="wrapper">
+        <div class="site-content clearfix" role="main">
+          {{ content }}
+        </div>
+        </div>
+    {% include footer.html %}
+  </body>
+</html>
