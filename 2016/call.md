@@ -40,7 +40,8 @@ permalink: /2016/cfp/
 </div><!--/col-lg-4-->
 
 <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
-    <h2>C◦mp◦se :: Conference</h2>
+    <h2>C◦mp◦se :: Conference 2016</h2>
+    <h3>Dates: Feb 4 - 5, 2016</h3>
     <div class="name-zig"></div>
 
     <div class="col-lg-10 col-md-10 col-sm-10">
