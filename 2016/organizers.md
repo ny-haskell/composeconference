@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Call for Proposals
+title: C◦mp◦se :: Conference 2016 Organizers
 permalink: /2016/organizers/
 ---
 
