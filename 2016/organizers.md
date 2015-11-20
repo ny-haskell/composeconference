@@ -1,6 +1,6 @@
 ---
 layout: page
-title: C◦mp◦se :: Conference 2016 Organizers
+title: &nbsp;
 permalink: /2016/organizers/
 ---
 
