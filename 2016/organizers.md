@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Call for Proposals
-permalink: /2016/cfp/
+permalink: /2016/organizers/
 ---
 
 # C◦mp◦se :: Conference 2016 Organizers
