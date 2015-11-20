@@ -1,6 +1,6 @@
 ---
 layout: page
-title: &nbsp;
+title: Organizers
 permalink: /2016/organizers/
 ---
 
