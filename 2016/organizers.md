@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page2016
 title: Organizers
 permalink: /2016/organizers/
 ---
@@ -30,12 +30,12 @@ Doug is a senior software engineer at Soostone.
 <h2>Kat Chuang</h2>
 <h3></h3>
 <p> 
-Kat is a product scientist at Soostone.
+Kat is a product designer at Soostone.
 </p>
 </div>
 </div><! --/row --> 
 </div><! --/container -->
-</div><! --/biowrap -->
+</div>
 
 <hr style="border:1px dotted #efefee "/>
 
@@ -63,4 +63,4 @@ Ryan is the CTO at Obsidian Systems.
 </div>
 </div><! --/row --> 
 </div><! --/container -->
-</div><! --/biowrap -->
+</div>
