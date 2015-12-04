@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="430px" height="55px" viewBox="0 0 430 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>Compose Conference Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <text id="C◦mp◦se-::-Conferenc" sketch:type="MSTextLayer" font-family="Avenir" font-size="40" font-weight="260" letter-spacing="0.444444448" fill="#000000">
+            <tspan x="0" y="40">C</tspan>
+            <tspan x="28.6044444" y="40" font-family="Lucida Grande" font-weight="normal">◦</tspan>
+            <tspan x="52.1738889" y="40">mp</tspan>
+            <tspan x="111.582778" y="40" font-family="Lucida Grande" font-weight="normal">◦</tspan>
+            <tspan x="135.152222" y="40">se :: Conference</tspan>
+        </text>
+    </g>
+</svg>
