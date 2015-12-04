@@ -340,9 +340,9 @@ h1, h2, h3, h4, h5, h6 {
     background: #143435;
     border-radius: 3px;
     color: #fff;
-    min-height: 485px;
-    padding-bottom:150px;
-    padding-top:130px;
+    min-height: 200px;
+    padding-bottom:40px;
+    padding-top:40px;
     text-align: center;
     text-align: center;
     vertical-align: center;
