@@ -1,0 +1,72 @@
+{
+	"speakers": [
+		{
+			"name": "Aditya Siram",
+		 	"title": "FLTKHS - Easy native GUIs in Haskell, Today!"
+		},
+		{
+			"name": "Austin Seipp",
+			"title": "Cryptography and verification with Cryptol"
+		},
+		{
+			"name": "Eric Koskinen",
+			"title": "Composing Temporal Effects"
+		},
+		{
+			"name": "Kenneth Foner",
+			"title": "'There and Back Again' and What Happened After"
+		},
+		{
+			"name": "Krzysztof Cieslak",
+		 	"title": "Ionide and state of F# open source environment"
+		},
+		{
+			"name": "Leonid Rozenberg",
+			"title": "The Intersection of Machine Learning, Types and Testing"
+		},
+		{
+			"name": "Luite Stegeman",
+			"title": "Fun with GHCJSi"
+		},
+		{
+			"name": "Markus Mottl",
+			"title": "AD-OCaml - Parallel Algorithmic Differentiation for OCaml"
+		},
+		{
+			"name": "Mindy Preston",
+			"title": "Composing Network Operating Systems"
+		},
+		{
+			"name": "Niki Vazou",
+		 	"title": "Liquid Types for Haskell"
+		},
+		{
+			"name": "Paulmichael Blasucci",
+			"title": "(Nearly) Everything You Ever Wanted to Know About F# Active Patterns but were Afraid to Ask"
+		},
+		{
+			"name": "Rachel Reese",
+		 	"title": "Chaos Testing at Jet"
+		},
+		{
+			"name": "Riccardo Terrell",
+		 	"title": "Functional Reactive Programming for Natural User Interface"
+		},
+		{
+			"name": "Stephen Compall",
+			"title": "Add a type parameter! One 'simple' design change, a panoply of outcomes"
+		},
+		{
+			"name": "Stephanie Weirich",
+		 	"title": "Dynamic Typing in GHC"
+		},
+		{
+			"name": "Tikhon Jelvis",
+			"title": "Analyzing Programs with Z3"
+		},
+		{
+			"name": "Zvonimir Pavlinovic, Tim King and Thomas Wies",
+			"title": "Improving Type Error Localization for Languages with Type "
+		}
+	]
+}
