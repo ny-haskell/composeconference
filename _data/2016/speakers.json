@@ -1,72 +1,181 @@
 {
-	"speakers": [
-		{
-			"name": "Aditya Siram",
-		 	"title": "FLTKHS - Easy native GUIs in Haskell, Today!"
-		},
-		{
-			"name": "Austin Seipp",
-			"title": "Cryptography and verification with Cryptol"
-		},
-		{
-			"name": "Eric Koskinen",
-			"title": "Composing Temporal Effects"
-		},
-		{
-			"name": "Kenneth Foner",
-			"title": "'There and Back Again' and What Happened After"
-		},
-		{
-			"name": "Krzysztof Cieslak",
-		 	"title": "Ionide and state of F# open source environment"
-		},
-		{
-			"name": "Leonid Rozenberg",
-			"title": "The Intersection of Machine Learning, Types and Testing"
-		},
-		{
-			"name": "Luite Stegeman",
-			"title": "Fun with GHCJSi"
-		},
-		{
-			"name": "Markus Mottl",
-			"title": "AD-OCaml - Parallel Algorithmic Differentiation for OCaml"
-		},
-		{
-			"name": "Mindy Preston",
-			"title": "Composing Network Operating Systems"
-		},
-		{
-			"name": "Niki Vazou",
-		 	"title": "Liquid Types for Haskell"
-		},
-		{
-			"name": "Paulmichael Blasucci",
-			"title": "(Nearly) Everything You Ever Wanted to Know About F# Active Patterns but were Afraid to Ask"
-		},
-		{
-			"name": "Rachel Reese",
-		 	"title": "Chaos Testing at Jet"
-		},
-		{
-			"name": "Riccardo Terrell",
-		 	"title": "Functional Reactive Programming for Natural User Interface"
-		},
-		{
-			"name": "Stephen Compall",
-			"title": "Add a type parameter! One 'simple' design change, a panoply of outcomes"
-		},
-		{
-			"name": "Stephanie Weirich",
-		 	"title": "Dynamic Typing in GHC"
-		},
-		{
-			"name": "Tikhon Jelvis",
-			"title": "Analyzing Programs with Z3"
-		},
-		{
-			"name": "Zvonimir Pavlinovic, Tim King and Thomas Wies",
-			"title": "Improving Type Error Localization for Languages with Type "
-		}
-	]
+  "speakers": [
+    {
+      "name": "Aditya Siram",
+      "title": "FLTKHS - Easy native GUIs in Haskell, Today!",
+      "abstract": "[FLTKHS](hackage.haskell.org/package/fltkhs) is a low-cost, hassle-free way to write cross-platform native GUI applications in Haskell. It is a quite complete binding to the [FLTK](http://fltk.org) toolkit, a mature cross-platform C++ GUI library. <br/><br/>
+
+This talk will show how, compared to other offerings in the Haskell ecosystem, FLTKHS makes it easy to get up and running by: <br/>
+
+- having minimal dependencies. You probably have most of them installed already. <br/>
+- making it easy for non-Haskellers to learn the API by emulating the object oriented callback style most programmers are already familiar with. <br/>
+- providing complete integration with the FLTK GUI builder. Dragging-and-dropping widgets, and wiring up callbacks in the builder generates Haskell code. <br/>
+- compiling to zero-dependency statically linked binaries on all platforms. <br/>
+- allowing creating custom widgets in pure Haskell <br/><br/>
+
+      However it isn't all roses. This talk will also cover: <br/>
+
+      - the trade-offs and pain points of writing a Haskell binding to a OO-heavy C++ library that relies heavily on polymorphic dispatch <br/>
+      - the downsides of trying to emulate that style in Haskell and things the author would have done differently <br/>
+      - the pro and cons vs a other object-oriented models in the Haskell ecosystem <br/><br/>
+
+      In summary, the talk aims to show that FLTKHS is ready for use today and has a lot of advantages but will also be honest about mistakes made and why one might not want to use it."
+    },
+    {
+      "name": "Austin Seipp",
+      "title": "Cryptography and verification with Cryptol",
+      "abstract": "Cryptographic primitives exist all through-out the modern software stack, yet their construction and composition is often delicate and error prone. Furthermore, specifications are often far removed from real implementations, and written in high level prose or pseudo-code - while we tend to implement such software in low-level, bug-prone programming languages.<br/><br/>
+
+        Cryptol is a domain-specific language, inspired by Haskell, designed for the construction and verification of cryptographic software. Cryptol programs often serve as 'executable specifications' of some design, yielding easy to understand programs that serve as excellent references. Furthermore, through a novel use of SAT-based verification tools, Cryptol can allow you to verify real world software conforms to the specification in an easy, automated fashion.<br/><br/>
+
+        This talk will primarily focus on the relevant aspects of writing and using the Cryptol toolkit, including verification on real world cryptographic functions written in C and Java, along with some notes on its implementation."
+    },
+    {
+      "name": "Eric Koskinen",
+      "title": "Composing Temporal Effects",
+      "abstract": "In an ongoing project, we are demonstrating how one can enrich a 
+        functional language's type system to include temporal logic effects. 
+        As we recently showed (LICS 2014), these temporal effects can coexist 
+        with dependent types to express a wide range of specifications 
+        including safety (e.g. method foo(x,f) will not invoke f if x<0), 
+        termination (e.g. bar(y) terminates whenever y>0), and mixtures of the 
+        two. <br/><br/>
+
+        In this talk, I will introduce the audience to classic type and effect 
+        systems. Next, I will briefly show how we have enriched them with 
+        temporal effects. Finally, I will demonstrate how a programmer works 
+        with these effects and how our work-in-progress extension to the Ocaml 
+        compiler can automatically check and, in some cases, infer effects. <br/><br/>
+
+        This project, entitled Local Temporal Reasoning, is a collaboration 
+        between Eric Koskinen (Yale), Tachio Terauchi (JAIST), and Daniel 
+        Dietsch (Univ. of Freiburg)."
+    },
+    {
+      "name": "Kenneth Foner",
+      "title": "'There and Back Again' and What Happened After",
+      "abstract": "Danvy and Goldberg's 'There and Back Again,' [1] puts the 'fun' in 'functional pearl.' This classic, underappreciated paper describes a clever new pattern for implementing a large family of functions over lists while using only one traversal, rather than the multiple traversals that many other approaches require. The technique naturally gives rise to elegant algorithms for computing symbolic convolutions, generalized palindrome tests, and Catalan numbers. <br/><br/>
+
+        In the introduction to the paper, the authors remark that in a dependently typed language it would be possible to give precise types to analogous functions over *length-indexed lists*--lists which carry their lengths in their types. We take this as a challenge, translating the 'There and Back Again' (TABA) pattern into modern idiomatic Haskell, making inherent use of cutting-edge features of GHC's type system. <br/><br/>
+
+        Reconstructing 'There and Back Again' in this richer setting requires us to elucidate some subtle arithmetic invariants of the pattern, both to ourselves and to the type system. To automatically verify the tricky arithmentic latent in the pearl, we use GHC's brand new type-checker plugin interface to augment our type system with the power of the Z3 theorem prover [2]. Writing down these precise types also gives us new insight into the structure of this programming pattern. Along this journey of translation, we may simultaneously satisfy the type-checker, the theorem-prover, and our own curiosity. <br/><br/>
+
+        [1]: Danvy, Olivier and Goldberg, Mayer. 'There and Back Again.' Basic Research in Computer Science 66.4 (2005): 397-413. <br/>
+        [2]: Diatchki, Iavor S. 'Improving Haskell Types with SMT.' Proceedings of the 8th ACM SIGPLAN Symposium on Haskell. ACM, 2015.",
+        "bio": "Kenneth Foner is a PhD student researching programming languages and type systems at the University of Pennsylvania. He is currently working on modular, composable constraint solver integration for the type systems of functional programming languages like Haskell. When he's not thinking about types, he's usually biking the streets of Philadelphia or making freely improvised music."
+    },
+    {
+      "name": "Krzysztof Cieslak",
+      "title": "Ionide and state of F# open source environment",
+      "abstract": "True open-source is more than just posting the source code on GitHub; it is defined by the community and its mentality. <br/><br/>
+
+          During this talk I will focus on a different side of F# - the fantastic and productive software community dedicated to providing cross-platform open source tooling to make the life of every F# developer better. This presentation follows my journey - from my introduction to F# and functional programming, through learning new tools, often very different than what I was used to as C# developer, to becoming a part of an amazing community and contributing to open source projects, and finally creating my own popular project - Ionide, a suite of F# developer tools for the Atom editor and VS Code that is built around integrating the tools created by the F# community into the development workflow. <br/><br/>
+
+          I will shortly present tools such as Paket ( 'A package dependency manager for .NET with support for NuGet packages and GitHub repositories'), FAKE (*'F# Make' is a build automation system with capabilities that extend far beyond Make and Rake.*), the F# Yeoman Generator (which provides scaffolding of F# projects outside of Visual Studio), and how we have managed to integrate all of those tools with Atom and VS Code in the Ionide project. I'll also go into how F# open source projects attract contributors, how they build great communities, and how they rely one on each other to foster a healthy open source ecosystem.",
+      "link": "http://ionide.io/"
+    },
+    {
+      "name": "Leonid Rozenberg",
+      "title": "The Intersection of Machine Learning, Types and Testing",
+      "abstract": "The proposed talk would have two broad themes. The first would be a quick survey of th Oml[1](https://github.com/hammerlab/oml) library that I helped to develop, that aims to provide mathematical, statistical and general machine learning capabilities for the OCaml programming environment. This would be a quick (and hopefully live) demo. The second part of the talk would be about my experiences. In particular, I'd like to discuss the difficulty of testing this library and what roles types can play. <br/><br/>
+
+        I've used F# and now OCaml to analyze data professionally for the past 10 years. Now at Hammer Lab, I've used some of the algorithms in this library to analyze a protein binding problem. I find working in the REPL an invaluable (and intuitive) experience for exploratory data analysis; types force the developer to be concise in their transformation of complex data. At the same time Oml aims to be easy in transforming that data into numerical patterns."
+    },
+    {
+      "name": "Luite Stegeman",
+      "title": "Fun with GHCJSi",
+      "abstract": "A recent new GHCJS feature is a REPL, GHCJSi. On the surface, GHCJSi looks exactly like GHCi. However, when a browser connects to the REPL session, all code is run inside the browser, giving the user full control over the browser's HTML document and JavaScript environment. <br/><br/>
+
+      I will briefly discuss the design and implementation of GHCJSi and demonstrate how to use the REPL for browser-based Haskell development, making use of various GHCJS libraries."
+    },
+    {
+      "name": "Markus Mottl",
+      "title": "AD-OCaml - Parallel Algorithmic Differentiation for OCaml",
+      "abstract": "AD-OCaml is a framework for algorithmic differentiation of OCaml programs with the following features: support for all language constructs; forward and reverse mode AD including arbitrary nesting of derivatives; fast vector and matrix operations; support for imperative operations in the presence of aliasing; implicit data- and task-parallel execution; visualization of data flow graphs; scalability and extensibility. <br/><br/>
+
+        The talk will provide background information on algorithmic differentiation, the challenges of implementing the described features, and its applications in the field of machine learning and optimization. The talk may include a demonstration of an alpha version of the framework, which, as of now, already supports the aforementioned features."
+    },
+    {
+      "name": "Mindy Preston",
+      "title": "Composing Network Operating Systems",
+      "abstract": "A monolithic operating system enforces a hard boundary between your userspace application code and the abstractions on which it depends in the kernel. The application programmer might have some verbal guarantees about the state of the system on which their code is running, but their capability to inspect the parameters of the system is usually incomplete. Worse, actually *changing* these parameters is often fraught with peril. As a result, the code depending on these systems often can't make useful assertions about its runtime properties. <br/><br/>
+
+        A library operating system presents a different approach: instead of an inaccessible kernel, why not provide the underlying functionality with a set of composable libraries, written just like application code? The programmer can examine and even alter implementations of, say, the system clock, or write their own entirely! The operating system becomes visible as a selection of components, composed as the application author requires. The code that underlies your application can work in concert with yours, from development to testing to deployment. Library operating systems don't run for their own benefit -- everything they do supports your code. <br/><br/>
+
+        Let's explore some of the opportunities presented by the flexibility and hackability of library operating systems! Examples will be given using MirageOS, a OCaml library OS framework."
+    },
+    {
+      "name": "Niki Vazou",
+      "title": "Liquid Types for Haskell",
+      "abstract": "Haskell has many delightful features, perhaps the most beloved of which is its type system which allows developers to specify and verify a variety of program properties at compile time. However, many properties, typically those that depend on relationships between program values are impossible, or at the very least, cumbersome to encode within Haskell's type system. <br/><br/> Liquid types enable the specification and verification of value-dependent properties by extending Haskell's type system with logical predicates drawn from efficiently decidable logics. <br/><br/>
+
+        In this talk, we will start with a high level description of Liquid Types. Next, we will present an overview of LiquidHaskell, a liquid type checker for Haskell. In particular, we will describe the kinds of properties that can be checked, ranging from generic requirements like totality (will 'head' crash?) and termination (will 'mergeSort' loop forever?), to application specific concerns like memory safety (will my code SEGFAULT?) and data structure correctness invariants (is this tree BALANCED?).<br/><br/>
+
+        Joint work with: Ranjit Jhala, Eric Seidel, Patrick Rondon, Dimitris Vytiniotis and Simon Peyton-Jones."
+    },
+    {
+      "name": "Paulmichael Blasucci",
+      "title": "(Nearly) Everything You Ever Wanted to Know About F# Active Patterns but were Afraid to Ask",
+      "abstract": "This presentation will provide a concise, but thorough, review of one of the more unique features of the F# language: active patterns. Also known as active recognizers, this feature allows one to extend the pattern-matching capabilities of the language. Active patterns may be put to great effect in taming unruly APIs, improving the declarative style of one's code, constructing embedded DSLs, and much more. This talk will be given in a lecture format, interspersing digestible code samples with detailed breakdown of syntax. Additional consideration will be given, time permitting, to appropriate use-cases for active patterns and a discussion of the underlying mechanics. The review is aimed at advanced beginners who are familiar with F#'s general syntax and usage. Also, while not strictly necessary, those wishing to follow along via computer are encouraged to have, at least, version 2.0 of the core F# tools. Information on obtaining the latest version of F# (for your platform of choice) may be found at: http://fsharp.org."
+    },
+    {
+      "name": "Rachel Reese",
+      "title": "Chaos Testing at Jet",
+      "abstract": "Some of the biggest growing pains we've experienced with our microservice architecture at Jet is in preparing for system outages. I'll discuss our chaos testing methods and the F# code we're using in depth, as well as lay out a path to implementation that everyone can use."
+    },
+    {
+      "name": "Riccardo Terrell",
+      "title": "Functional Reactive Programming for Natural User Interface",
+      "abstract": "Functional reactive programming supports elegant programming of dynamic and reactive systems by providing first-class, composable abstractions for behaviors (time-varying values) and events (streams of timed values). Using Functional Reactive Programming to handle event-stream of values over time provides an alternative to the Observer pattern, which produces a series of unique responses to discrete changes in state. Reactive Programming is useful anywhere the Observer pattern is common, and provides an elegant way to express computation in domains such as video games, networking, user interfaces and simulation. Once understood, it can greatly simplify your project and code dealing with asynchronous events with nested callbacks, complex list filtering/transformation, or timing concerns. During this presentation I will create, consume and compose event streams with Observables introducing the concept of FRP integrating time flow and compositional events to build Natural User Interfaces with Kinect and Leap using F#. You will walk away with the knowledge and excitement of how to use the Functional Reactive Programming approach and how to leverage the reactive programming power to build Natural User Interfaces."
+    },
+    {
+      "name": "Stephen Compall",
+      "title": "Add a type parameter! One 'simple' design change, a panoply of outcomes",
+      "abstract": "When designing datatypes, adding a type parameter is a simple expedient with a surprising variety of applications. This talk is a survey of datatype examples with functions operating on them in Haskell, to which we add a type parameter, stir, and observe the effects. <br/><br/>
+
+        Attendees who prefer precise, unabstracted specifications in their datatypes should come away with new motivation to take a second look at datatype genericity; others may find one or two new tricks to add to their toolkits."
+    },
+    {
+      "name": "Stephanie Weirich",
+      "title": "Dynamic Typing in GHC",
+      "abstract": "The ability to perform type tests at runtime blurs the line between 
+        statically-typed and dynamically-typed languages. Recent developments in 
+        Haskell's type system allow even programs that use reflection to 
+        themselves be statically typed, using a type-indexed runtime representation 
+        of types called TypeRep. <br/><br/>
+
+        The Glasgow Haskell Compiler currently supports the definition of a 
+        Dynamic type through the use of the Typeable type class. This definition 
+        works well with Haskell's open universe of types. All new types are 
+        automatically convertible to type Dynamic. However, this implementation of 
+        Dynamic is also unsafe: the implementation of operations such as 
+        dynApply---which applies one Dynamic as a function 
+        to another---requires unsafeCoerce. <br/><br/>
+
+        In this talk, I will present an improved interface in the Typeable type 
+        class, leading to a safer implementation of type Dynamic. Our revised 
+        Typeable class requires a new feature, kind equalities, that will 
+        soon be available in GHC. <br/><br/>
+
+        (This is joint work with Simon Peyton Jones, Richard Eisenberg 
+        and Dimitrios Vytiniotis.)"
+    },
+    {
+      "name": "Tikhon Jelvis",
+      "title": "Analyzing Programs with Z3",
+      "abstract": "SMT solvers are widely used in research to analyze and verify programs. This lets us check invariants and compare programs against a spec *exhaustively*, with bounds on the number of loop iterations and the size of the heap. SMT solvers are also useful for other sorts of analysis including sophisticated type checking (like refinement types in Liquid Haskell) and fields other than program analysis (like security research where they can be used to analyze cryptographic algorithms and protocols). <br/><br/>
+
+        I'll demonstrate how to compile a simple language to an SMT formula and analyze programs using the Haskell Z3 bindings. Z3 has bindings in other languages including OCaml and .NET, so these ideas will be immediately useful to everyone even if the details are slightly different from the Haskell code. The underlying ideas will also help people approach other problems with Z3."
+    },
+    {
+      "name": "Zvonimir Pavlinovic, Tim King and Thomas Wies",
+      "title": "Improving Type Error Localization for Languages with Type",
+      "abstract": "Functional programming languages have spearheaded groundbreaking innovations in programming language design and implementation. Garbage collection, type inference, higher-order functions, and polymorphic type abstractions are just some examples of innovative features that have emerged from research in these languages. Expert programmers cherish these features because they can significantly increase a programmer's productivity. However, these advanced language features are often difficult to master because they require a deep understanding of the inner workings of the compiler. <br/><br/>
+
+        Type inference is a prime example of a language feature that can boost productivity but can also be a usability nightmare. A type inference algorithm infers the types of expressions in a program based on how these expressions are used. The compiler can thus provide strong static correctness guarantees about a program without requiring the programmer to annotate the program with type information. On the other hand, automated type inference can also be counterproductive. If a conflicting use of an expression (i.e. a type mismatch) is detected, the compiler reports the corresponding program location as the source 
+        of the type error. However, the actual error source is often elsewhere in the program. This results in confusing error messages. The programmer needs to understand the basic workings of the inference algorithm to interpret the error message correctly and debug the program. This can often be a frustrating experience.<br/><br/> 
+
+        In this talk, we will explain how type inference algorithms work and why type error localization is so difficult in the presence of type inference. We will then present a new algorithm for localizing type errors that provides formal quality guarantees about the identified type error sources. The algorithm works efficiently in practice and has the potential to significantly improve the quality of type error reports produced by state-of-the-art compilers."
+    }
+  ]
 }
