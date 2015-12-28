@@ -1,7 +1,11 @@
 ---
 layout: page2016
-title: Compose Conference 2016
+title: Compose Conference 2016 Speakers
 permalink: /2016/speakers/
+---
+
+Register at <a href="http://composeconference.eventbrite.com">composeconference.eventbrite.com</a>
+
 ---
 
 <div id="biowrap">
@@ -36,3 +40,7 @@ permalink: /2016/speakers/
     </div><!-- --/container ---->
 </div>
 {% endfor %}
+
+---
+
+Register at <a href="http://composeconference.eventbrite.com">composeconference.eventbrite.com</a>
