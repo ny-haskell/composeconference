@@ -32,7 +32,10 @@ layout: compress
                         <div id="mapwrap">
                           <div class="container">
                             <div class="row mt">
-                              <div id="map-canvas" style="width: 100%; height: 400px;"></div>
+                              <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.1419543082984!2d-73.98604134838247!3d40.69287117923257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a4b1098536b%3A0xb1f5b22f3d7a0d3b!2s4+MetroTech+Center%2C+Brooklyn%2C+NY+11201!5e0!3m2!1sen!2sus!4v1451338992452"
+                                width="100%" height="400px" frameborder="0"
+                                style="border:0" allowfullscreen></iframe>
                             </div>
                           </div>
                         </div>
@@ -62,35 +65,4 @@ layout: compress
     {% include footer.html %}
   </body>
 
-<script type="text/javascript">
-  function initialize() {
-      var mapOptions = {
-        center: { lat: 40.6928712, lng: -73.986036},
-        zoom: 18
-      };
-
-      var iconURLPrefix = 'http://maps.google.com/mapfiles/ms/icons/';
-      var markers = new Array();
-      var marker;
-
-      var map = new google.maps.Map(document.getElementById('map-canvas'),
-          mapOptions);
-
-
-      marker = new google.maps.Marker({
-        position: new google.maps.LatLng(40.6928712, -73.986036),
-        map: map,
-        icon : iconURLPrefix + 'red-dot.png',
-    });
-
-      marker = new google.maps.Marker({
-        position: new google.maps.LatLng(40.6928712, -73.986036),
-        map: map,
-        icon : iconURLPrefix + 'red-dot.png',
-    });
-
-    }
-
-    google.maps.event.addDomListener(window, 'load', initialize);
-</script>
 </html>
