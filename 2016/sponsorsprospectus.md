@@ -4,7 +4,7 @@ title: Sponsorship Prospectus
 permalink: /2016/sponsors/prospectus/
 ---
 
-C◦mp◦se is a conference for typed functional programmers, focused specifically on Haskell, OCaml, F#, SML, and related technologies. Compose is about bringing together functional programmers of all levels of skill and experience — from technical leads to novices, and from long-time hackers to students just getting started. It is a 2-day weekend event (Feb 4-5, 2016) happening in New York City.
+C◦mp◦se is a conference for typed functional programmers, focused specifically on Haskell, OCaml, F#, SML, and related technologies. Compose is about bringing together functional programmers of all levels of skill and experience — from technical leads to novices, and from long-time hackers to students just getting started. It is a 2-day event (Feb 4-5, 2016) happening in New York City.
 
 C◦mp◦se sponsorship directly benefits the functional programming community as proceeds go towards operating costs that includes speaker travel expenses, diversity efforts, and provisioning sustenance at the event. As a sponsor, your company will be positioned for high-visibility as well as be given access to post to our job board or even the opportunity to host your own recruiting event or workshop. This information is provided in a PDF format for printouts.
 
