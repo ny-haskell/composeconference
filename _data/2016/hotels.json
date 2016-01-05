@@ -1,0 +1,25 @@
+{
+  "hotels": [
+    {
+    	"name": "Holiday Inn",
+        "address": "300 Schermerhorn St, Brooklyn, NY 11217",
+        "url": "http://www.ihg.com/holidayinn/hotels/us/en/brooklyn/lgabr/hoteldetail",
+    	"desc": "",
+    	"photo": ""
+    },
+    {
+        "name": "Aloft",
+        "address": "216 Duffield St, Brooklyn, NY 11201",
+        "url": "http://aloftnewyorkbrooklyn.com",
+        "desc": "",
+        "photo": ""
+    },
+    {
+        "name": "Hotel Indigo",
+        "address": "229 Duffield St, Brooklyn, NY 11201",
+        "url": "http://www.ihg.com/hotelindigo/hotels/us/en/brooklyn/bxyid/hoteldetail",
+        "desc": "",
+        "photo": ""
+    },
+  ]
+}
