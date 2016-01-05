@@ -1,0 +1,29 @@
+{
+  "organizers": [
+    {
+    	"name": "Gershom Bazerman",
+    	"bio": "Gershom is a lead Software Developer at McGraw Hill Financial.",
+    	"photo": "../photos/gb.png"
+    },
+    {
+    	"name": "Doug Beardsley",
+    	"bio": "Doug is a senior software engineer at Soostone.",
+    	"photo": "../photos/db.jpg"
+    },
+    {
+    	"name": "Kat Chuang",
+    	"bio": "Kat is a product designer at Soostone.",
+    	"photo": "../photos/kc.jpg"
+    },
+    {
+    	"name": "Rick Minerich",
+    	"bio": "Rick is the principal researcher at Bayard Rock.",
+    	"photo": "../photos/rm.jpg"
+    },
+    {
+    	"name": "Ryan Trinkle",
+    	"bio": "Ryan is the CTO at Obsidian Systems.",
+    	"photo": "../photos/rt.jpg"
+    }
+  ]
+}
