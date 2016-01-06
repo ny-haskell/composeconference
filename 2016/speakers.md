@@ -9,35 +9,54 @@ Register at <a href="http://composeconference.eventbrite.com">composeconference.
 ---
 
 <div id="biowrap">
-	<div class="container">
-	<div class="row">
-	    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-		<h2>Eugenia Cheng</h2>
-		<h3><small>[KEYNOTE]</small> How to Bake 'How to Bake Pi': reflections on making abstract mathematics palatable</h3>
-		<p>
-		</p>
-	    </div>
-	</div><!-- --/row ---->
-	</div><!-- --/container ---->
+  <div class="container">
+  <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+    <h2>Eugenia Cheng</h2>
+    <h3><small>[KEYNOTE]</small> How to Bake 'How to Bake Pi': reflections on making abstract mathematics palatable</h3>
+    <p>
+    </p>
+      </div>
+  </div><!-- --/row ---->
+  </div><!-- --/container ---->
 </div>
 
 
 {% for speaker in site.data.2016.speakers.speakers %}
 
-<hr>
+  <hr>
 
-<div id="biowrap">
-    <div class="container">
-	<div class="row">
-	    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-		<h2>{{ speaker.name }}</h2>
-		<h3>{{ speaker.title }}</h3>
-		<p>
-		  {{ speaker.abstract }}
-		</p>
-	    </div>
-	</div><!-- --/row ---->
-    </div><!-- --/container ---->
+  <div id="biowrap">
+  <div class="container">
+  <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+        <h2>{{ speaker.name }}</h2>
+        <h3>{{ speaker.title }}</h3>
+        <p>
+          {{ speaker.abstract }}
+        </p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <h2>&nbsp;</h2>
+      <h3>&nbsp;</h3>
+      <p class="text-centered">
+{% if speaker.twitter %}
+<a href="http://twitter.com/{{ speaker.twitter }}">
+ <i class="fa fa-twitter"> {{ speaker.twitter }}</i>
+</a>
+{% endif %}
+{% if speaker.github %}
+<a href="http://github.com/{{ speaker.github }}">
+ <i class="fa fa-github"> {{ speaker.github }}</i>
+</a>
+{% endif %}
+{% if speaker.irc_handle %}
+IRC: {{ speaker.irc_handle }}</i>
+{% endif %}
+</p>
+</div>
+</div><!-- --/row ---->
+</div><!-- --/container ---->
 </div>
 {% endfor %}
 

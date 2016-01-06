@@ -28,7 +28,10 @@ This talk will show how, compared to other offerings in the Haskell ecosystem, F
 
         Cryptol is a domain-specific language, inspired by Haskell, designed for the construction and verification of cryptographic software. Cryptol programs often serve as 'executable specifications' of some design, yielding easy to understand programs that serve as excellent references. Furthermore, through a novel use of SAT-based verification tools, Cryptol can allow you to verify real world software conforms to the specification in an easy, automated fashion.<br/><br/>
 
-        This talk will primarily focus on the relevant aspects of writing and using the Cryptol toolkit, including verification on real world cryptographic functions written in C and Java, along with some notes on its implementation."
+        This talk will primarily focus on the relevant aspects of writing and using the Cryptol toolkit, including verification on real world cryptographic functions written in C and Java, along with some notes on its implementation.",
+        "twitter": "stdlib",
+        "github": "thoughtpolice",
+        "irc_handle": "thoughtpolice"
     },
     {
       "name": "Eric Koskinen",
@@ -62,7 +65,10 @@ This talk will show how, compared to other offerings in the Haskell ecosystem, F
 
         [1]: Danvy, Olivier and Goldberg, Mayer. 'There and Back Again.' Basic Research in Computer Science 66.4 (2005): 397-413. <br/>
         [2]: Diatchki, Iavor S. 'Improving Haskell Types with SMT.' Proceedings of the 8th ACM SIGPLAN Symposium on Haskell. ACM, 2015.",
-        "bio": "Kenneth Foner is a PhD student researching programming languages and type systems at the University of Pennsylvania. He is currently working on modular, composable constraint solver integration for the type systems of functional programming languages like Haskell. When he's not thinking about types, he's usually biking the streets of Philadelphia or making freely improvised music."
+        "bio": "Kenneth Foner is a PhD student researching programming languages and type systems at the University of Pennsylvania. He is currently working on modular, composable constraint solver integration for the type systems of functional programming languages like Haskell. When he's not thinking about types, he's usually biking the streets of Philadelphia or making freely improvised music.",
+        "twitter": "kfoner",
+        "github": "kwf",
+        "irc_handle": "kwf"
     },
     {
       "name": "Krzysztof Cieslak",
@@ -93,7 +99,8 @@ This talk will show how, compared to other offerings in the Haskell ecosystem, F
       "title": "AD-OCaml - Parallel Algorithmic Differentiation for OCaml",
       "abstract": "AD-OCaml is a framework for algorithmic differentiation of OCaml programs with the following features: support for all language constructs; forward and reverse mode AD including arbitrary nesting of derivatives; fast vector and matrix operations; support for imperative operations in the presence of aliasing; implicit data- and task-parallel execution; visualization of data flow graphs; scalability and extensibility. <br/><br/>
 
-        The talk will provide background information on algorithmic differentiation, the challenges of implementing the described features, and its applications in the field of machine learning and optimization. The talk may include a demonstration of an alpha version of the framework, which, as of now, already supports the aforementioned features."
+        The talk will provide background information on algorithmic differentiation, the challenges of implementing the described features, and its applications in the field of machine learning and optimization. The talk may include a demonstration of an alpha version of the framework, which, as of now, already supports the aforementioned features.",
+      "github": "mmottl"
     },
     {
       "name": "Mindy Preston",
@@ -111,7 +118,9 @@ This talk will show how, compared to other offerings in the Haskell ecosystem, F
 
         In this talk, we will start with a high level description of Liquid Types. Next, we will present an overview of LiquidHaskell, a liquid type checker for Haskell. In particular, we will describe the kinds of properties that can be checked, ranging from generic requirements like totality (will 'head' crash?) and termination (will 'mergeSort' loop forever?), to application specific concerns like memory safety (will my code SEGFAULT?) and data structure correctness invariants (is this tree BALANCED?).<br/><br/>
 
-        Joint work with: Ranjit Jhala, Eric Seidel, Patrick Rondon, Dimitris Vytiniotis and Simon Peyton-Jones."
+        Joint work with: Ranjit Jhala, Eric Seidel, Patrick Rondon, Dimitris Vytiniotis and Simon Peyton-Jones.",
+        "twitter": "nikivazou",
+        "github": "nikivazou"
     },
     {
       "name": "Paulmichael Blasucci",
@@ -133,7 +142,10 @@ This talk will show how, compared to other offerings in the Haskell ecosystem, F
       "title": "Add a type parameter! One 'simple' design change, a panoply of outcomes",
       "abstract": "When designing datatypes, adding a type parameter is a simple expedient with a surprising variety of applications. This talk is a survey of datatype examples with functions operating on them in Haskell, to which we add a type parameter, stir, and observe the effects. <br/><br/>
 
-        Attendees who prefer precise, unabstracted specifications in their datatypes should come away with new motivation to take a second look at datatype genericity; others may find one or two new tricks to add to their toolkits."
+        Attendees who prefer precise, unabstracted specifications in their datatypes should come away with new motivation to take a second look at datatype genericity; others may find one or two new tricks to add to their toolkits.",
+        "twitter": "S11001001",
+        "github": "S11001001",
+        "irc_handle": "S11001001"        
     },
     {
       "name": "Stephanie Weirich",
@@ -158,7 +170,9 @@ This talk will show how, compared to other offerings in the Haskell ecosystem, F
         soon be available in GHC. <br/><br/>
 
         (This is joint work with Simon Peyton Jones, Richard Eisenberg 
-        and Dimitrios Vytiniotis.)"
+        and Dimitrios Vytiniotis.)",
+        "twitter": "fancytypes",
+        "github": "sweirich"
     },
     {
       "name": "Tikhon Jelvis",
