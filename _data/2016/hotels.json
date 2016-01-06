@@ -21,5 +21,23 @@
         "desc": "",
         "photo": ""
     },
+    {
+        "name": "Wyndham Garden Chelsea",
+        "address": "37 W 24th St, New York, NY 10010",
+        "url": "http://www.wyndhamnyc.com/",
+        "desc": "Please reference the \"Compose Conference\" group rate ($109/night). The deadline to book at the group rate and to cancel any reservations is Friday, January 15th.",
+        "phone": "212-243-0800",
+        "email": "ashim@bridgetonholdings.com",
+        "photo": ""
+    },
+    {
+        "name": "GEM Hotel Chelsea",
+        "address": "300 W 22nd St, New York, NY 10011",
+        "url": "http://www.thegemhotel.com/chelsea/",
+        "desc": "Please reference the \"Compose Conference\" group rate ($125/night). The deadline to book at the group rate and to cancel any reservations is Friday, January 15th.",
+        "phone": "212-675-1911",
+        "email": "ashim@bridgetonholdings.com",
+        "photo": ""
+    },
   ]
 }
