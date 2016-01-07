@@ -1,6 +1,6 @@
 ---
 layout: page2016
-title: Compose Conference 2016 
+title: Unconference & Exchange
 permalink: /2016/unconference/
 ---
 
