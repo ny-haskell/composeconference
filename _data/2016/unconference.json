@@ -1,0 +1,19 @@
+{
+  "workshops": [
+    {
+      "presenter": "Presenter Name",
+      "title": "Example workshop title",
+      "abstract": "Here's an example of a workshop description. \n\nTo list a workshop here, submit a pull request to the `composeconference` repo by filling out the appropriate fields in `_data/2016/unconference.json`. 
+      \n\n
+      The repo can be found at [https://github.com/ny-haskell/composeconference](https://github.com/ny-haskell/composeconference)
+      ",
+      "speaker": 
+      	{
+      	"twitter": "@composeConf",
+      	"github": "ny-haskell",
+      	"irc": "composeconference"
+      	}
+    }
+
+  ]
+}
