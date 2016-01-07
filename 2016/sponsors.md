@@ -1,6 +1,6 @@
 ---
 layout: page2016
-title: Compose Conference 2016 
+title: C◦mp◦se 2016 Sponsors
 permalink: /2016/sponsors/
 ---
 
@@ -8,6 +8,7 @@ C◦mp◦se sponsorship directly benefits the functional programming community a
 
 To find out how to be a sponsor, please take a look at [this page](prospectus) for information. If you would like additional information on sponsorship, please contact us at: admin@composeconference.org.
 
+<hr style="color: #ddd; border-color: #ddd; border-style:dotted">
 
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -38,6 +39,32 @@ To find out how to be a sponsor, please take a look at [this page](prospectus) f
           <div class="panel-heading">Bayard Rock</div>
           <div class="panel-body centered">
               <a href="http://www.bayardrock.com/"><img src="/assets/img/logos/bayardrock.png" class="img-responsive"></a>
+          </div>
+      </div>
+      <p></p>
+  </div>
+</div>
+
+<hr style="color: #ddd; border-color: #ddd; border-style:dotted">
+
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h3>Venue Sponsors</h3>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+      <div class="panel panel-default">
+          <div class="panel-heading">JP Morgan (Conference Venue)</div>
+          <div class="panel-body centered">
+              <a href="http://www.jpmorganchase.com/"><img src="/assets/img/logos/jpmorgan.png" class="img-responsive" style="padding-top:5px;"></a>
+          </div>
+      </div>
+      <p></p>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+      <div class="panel panel-default">
+          <div class="panel-heading">Soostone (Unconference Venue)</div>
+          <div class="panel-body centered">
+              <a href="http://soostone.com/"><img src="/assets/img/logos/SooStone.jpg" class="img-responsive"></a>
           </div>
       </div>
       <p></p>
