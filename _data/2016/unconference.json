@@ -13,7 +13,26 @@
       	"github": "ny-haskell",
       	"irc": "composeconference"
       	}
+    },
+    {
+      "presenter": "Jorge Fioranelli",
+      "title": "Introduction to F# Workshop (Beginner)",
+      "abstract": "Do you want to learn F#? Well, you better start coding! Learning a new programming language is not easy, on top of reading a lot you need to practice even more. This workshop is designed to teach you some of the basics of F# by combining theory and practice.
+      \n\n
+      Audience: C#/Java Developers
+      \n\n
+      Duration: 4hs
+      \n\n
+      Topics: Bindings, Functions, Tuples, Records, High order functions, Pipelining, Partial application, Composition, Options, Pattern matching, Discriminated unions, Units of measure, Functional lists, Recursion, Object-oriented programming and Type providers.
+      \n\n
+      Website: [fsharpworkshop.com](http://fsharpworkshop.com)
+      ",
+      "speaker": 
+      	{
+      	"twitter": "@jorgefioranelli",
+      	"github": "jorgef",
+      	"irc": ""
+      	}
     }
-
   ]
 }
