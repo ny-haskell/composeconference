@@ -1,5 +1,5 @@
 ---
-layout: page2016
+layout: 2016/page
 title: Unconference & Exchange Workshops
 permalink: /2016/workshops/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page2016
+layout: 2016/page
 title: Compose Conference 2016 Speakers
 permalink: /2016/speakers/
 ---

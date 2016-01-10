@@ -1,5 +1,5 @@
 ---
-layout: page2016
+layout: 2016/page
 title: Travel & Accomodation Information
 permalink: /2016/travel/
 ---

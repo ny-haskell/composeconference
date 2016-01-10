@@ -1,5 +1,5 @@
 ---
-layout: mainpage2016
+layout: 2016/mainpage
 title: Compose Conference 2016
 permalink: /2016/
 ---

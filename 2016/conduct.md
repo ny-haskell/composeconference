@@ -1,5 +1,5 @@
 ---
-layout: page2016
+layout: 2016/page
 title: Policies
 permalink: /2016/conduct/
 ---

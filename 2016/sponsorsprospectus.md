@@ -1,5 +1,5 @@
 ---
-layout: page2016
+layout: 2016/page
 title: Sponsorship Prospectus 
 permalink: /2016/sponsors/prospectus/
 ---

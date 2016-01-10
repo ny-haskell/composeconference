@@ -1,5 +1,5 @@
 ---
-layout: page2016
+layout: 2016/page
 title: C◦mp◦se 2016 Sponsors
 permalink: /2016/sponsors/
 ---
