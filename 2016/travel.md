@@ -26,7 +26,7 @@ permalink: /2016/travel/
 
 ## Hotels
 
-NYC has many fine hotels and hostels. We suggest something by the 2/3, R, 4/5, A/C, or G lines.  Here are some hotels in walking distance to the conference venue.
+NYC has many fine hotels and hostels. We suggest something by the 2/3, R, 4/5, A/C, or G lines.  Here are some hotels either in walking distance to the conference venue or some distance away but offering conference group rates.
 
 <div id="hotels">
 	<div class="container">
