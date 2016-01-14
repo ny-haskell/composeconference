@@ -8,11 +8,25 @@
       The repo can be found at [https://github.com/ny-haskell/composeconference](https://github.com/ny-haskell/composeconference)
       ",
       "speaker": 
-      	{
-      	"twitter": "@composeConf",
-      	"github": "ny-haskell",
-      	"irc": "composeconference"
-      	}
+        {
+        "twitter": "@composeConf",
+        "github": "ny-haskell",
+        "irc": "composeconference"
+        },
+      "schedule":
+        {
+          "date": "%A, %B %d, %Y",
+          "start_time": "HH:MM",
+          "end_time": "HH:MM",
+          "duration": "n hours",
+        },
+      "attendee_information":
+        {
+          "level": "beginner / intermediate / advanced",
+          "prereqs": "*list any prereq knowledge or skills*",
+          "materials": "*list any links or downloads*",
+          "instructions": "*any specific instructions to attendees*"
+        }
     },
     {
       "presenter": "Jorge Fioranelli",
@@ -24,15 +38,27 @@
       Duration: 4hs
       \n\n
       Topics: Bindings, Functions, Tuples, Records, High order functions, Pipelining, Partial application, Composition, Options, Pattern matching, Discriminated unions, Units of measure, Functional lists, Recursion, Object-oriented programming and Type providers.
-      \n\n
-      Website: [fsharpworkshop.com](http://fsharpworkshop.com)
       ",
       "speaker": 
-      	{
-      	"twitter": "@jorgefioranelli",
-      	"github": "jorgef",
-      	"irc": ""
-      	}
+        {
+        "twitter": "@jorgefioranelli",
+        "github": "jorgef",
+        "irc": ""
+        },
+      "schedule":
+        {
+          "date": "Saturday, Feb 6, 2016",
+          "start_time": "10:30am",
+          "end_time": "4:00pm",
+          "duration": "4 hours",
+        },
+      "attendee_information":
+        {
+          "level": "beginner",
+          "prereqs": "none",
+          "materials": "[fsharpworkshop.com](http://fsharpworkshop.com)",
+          "instructions": "Send an email to jorge@jet.com regarding interest in signing up to attend this workshop at least 24 hrs before. Please show up 15 mins before the starting time."
+        }
     }
   ]
 }
