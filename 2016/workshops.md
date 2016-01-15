@@ -4,7 +4,7 @@ title: Unconference & Exchange Workshops
 permalink: /2016/workshops/
 ---
 
-To attend any of these workshops, register for an unconference ticket at <a href="https://www.eventbrite.com/e/cmpse-unconference-and-exchange-2016-tickets-20455465849">https://www.eventbrite.com/e/cmpse-unconference-and-exchange-2016-tickets-20455465849</a> and email the workshop instructor listed below.
+To attend any of these workshops, <a href="https://www.eventbrite.com/e/cmpse-unconference-and-exchange-2016-tickets-20455465849">register for an unconference ticket</a> and email the workshop instructor listed below.
 
 ---
 
