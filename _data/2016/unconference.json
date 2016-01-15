@@ -1,6 +1,34 @@
 {
   "workshops": [
     {
+      "presenter": "Jorge Fioranelli",
+      "title": "Introduction to F# Workshop (Beginner)",
+      "abstract": "Do you want to learn F#? Well, you better start coding! Learning a new programming language is not easy, on top of reading a lot you need to practice even more. This workshop is designed to teach you some of the basics of F# by combining theory and practice.
+      \n\n
+      Topics: Bindings, Functions, Tuples, Records, High order functions, Pipelining, Partial application, Composition, Options, Pattern matching, Discriminated unions, Units of measure, Functional lists, Recursion, Object-oriented programming and Type providers.
+      ",
+      "speaker": 
+        {
+        "twitter": "@jorgefioranelli",
+        "github": "jorgef",
+        "irc": ""
+        },
+      "schedule":
+        {
+          "date": "Saturday, Feb 6, 2016",
+          "start_time": "10:30am",
+          "end_time": "4:00pm",
+          "duration": "4 hours",
+        },
+      "attendee_information":
+        {
+          "level": "beginner (C# or Java developers)",
+          "prereqs": "see [fsharpworkshop.com](http://fsharpworkshop.com)",
+          "materials": "see [fsharpworkshop.com](http://fsharpworkshop.com)",
+          "instructions": "Send an email to jorge@jet.com regarding interest in signing up to attend this workshop at least 24 hrs before. Please show up 15 mins before the starting time."
+        }
+    },
+    {
       "presenter": "Presenter Name",
       "title": "Example workshop title",
       "abstract": "Here's an example of a workshop description. \n\nTo list a workshop here, submit a pull request to the `composeconference` repo by filling out the appropriate fields in `_data/2016/unconference.json`. 
@@ -26,38 +54,6 @@
           "prereqs": "*list any prereq knowledge or skills*",
           "materials": "*list any links or downloads*",
           "instructions": "*any specific instructions to attendees*"
-        }
-    },
-    {
-      "presenter": "Jorge Fioranelli",
-      "title": "Introduction to F# Workshop (Beginner)",
-      "abstract": "Do you want to learn F#? Well, you better start coding! Learning a new programming language is not easy, on top of reading a lot you need to practice even more. This workshop is designed to teach you some of the basics of F# by combining theory and practice.
-      \n\n
-      Audience: C#/Java Developers
-      \n\n
-      Duration: 4hs
-      \n\n
-      Topics: Bindings, Functions, Tuples, Records, High order functions, Pipelining, Partial application, Composition, Options, Pattern matching, Discriminated unions, Units of measure, Functional lists, Recursion, Object-oriented programming and Type providers.
-      ",
-      "speaker": 
-        {
-        "twitter": "@jorgefioranelli",
-        "github": "jorgef",
-        "irc": ""
-        },
-      "schedule":
-        {
-          "date": "Saturday, Feb 6, 2016",
-          "start_time": "10:30am",
-          "end_time": "4:00pm",
-          "duration": "4 hours",
-        },
-      "attendee_information":
-        {
-          "level": "beginner",
-          "prereqs": "none",
-          "materials": "[fsharpworkshop.com](http://fsharpworkshop.com)",
-          "instructions": "Send an email to jorge@jet.com regarding interest in signing up to attend this workshop at least 24 hrs before. Please show up 15 mins before the starting time."
         }
     }
   ]
