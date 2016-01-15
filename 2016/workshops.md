@@ -10,8 +10,6 @@ To attend any of these workshops, register for an unconference ticket at <a href
 
 {% for workshop in site.data.2016.unconference.workshops %}
 
-<hr>
-
 <div id="workshop">
 <div class="container">
 <div class="row">
