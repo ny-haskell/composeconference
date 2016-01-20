@@ -161,6 +161,13 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
 
 <tr><td>5:40-5:50pm</td><td>Closing</td></tr>
 </table>
+
 ---
 
 Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventbrite.com](http://composeconference.eventbrite.com)
+
+---
+
+The [C◦mp◦se :: Unconference and Exchange](../unconference) will occur following the conference on February 6th and 7th. Please [register](https://www.eventbrite.com/e/cmpse-unconference-and-exchange-2016-tickets-20455465849). for both tickets to attend the both portions of C◦mp◦se. 
+
+
