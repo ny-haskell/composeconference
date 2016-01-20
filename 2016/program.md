@@ -4,7 +4,7 @@ title: Compose Conference 2016 Program
 permalink: /2016/program/
 ---
 
-Register at <a href="http://composeconference.eventbrite.com">composeconference.eventbrite.com</a>
+Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventbrite.com](http://composeconference.eventbrite.com)
 
 ---
 
@@ -161,3 +161,6 @@ Register at <a href="http://composeconference.eventbrite.com">composeconference.
 
 <tr><td>5:40-5:50pm</td><td>Closing</td></tr>
 </table>
+---
+
+Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventbrite.com](http://composeconference.eventbrite.com)
