@@ -4,7 +4,7 @@ title: Compose Conference 2016 Speakers
 permalink: /2016/speakers/
 ---
 
-Register at <a href="http://composeconference.eventbrite.com">composeconference.eventbrite.com</a>
+Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventbrite.com](http://composeconference.eventbrite.com)
 
 ---
 
@@ -62,4 +62,4 @@ IRC: {{ speaker.irc_handle }}</i>
 
 ---
 
-Register at <a href="http://composeconference.eventbrite.com">composeconference.eventbrite.com</a>
+Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventbrite.com](http://composeconference.eventbrite.com)
