@@ -15,7 +15,7 @@ Register at <a href="http://composeconference.eventbrite.com">composeconference.
     <tr class="active"><th width="200">Time</th><th>Talk</th></tr>
     <tr><td>8:30am - 9:00am</td><td>Registration</td></tr>
     <tr><td>9:00am - 9:15am</td><td>Opening<br/></td></tr>
-    <tr><td>9:15am - 10:15am</td><td>Keynote<br/></td></tr>
+    <tr><td>9:15am - 10:15am</td><td>Keynote: How to Bake 'How to Bake Pi': reflections on making abstract mathematics palatable<br/>Dr. Eugenia Cheng<br/></td></tr>
     <tr><td>10:15am - 10:30am</td><td>Break<br/></td></tr>
 
 {% assign sorted = (site.data.2016.speakers.speakers | sort: 'start_time') %}
