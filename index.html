@@ -1,101 +1,13 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name="robots" content="INDEX, FOLLOW"/>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="compose conference, compose 2015, compose 2016, functional programming languages">
-    <meta name="description" content="Compose is a new conference for typed functional programmers, focused specifically on Haskell, OCaml, F#, SML, and related technologies.">
-    <meta name="author" content="Compose Conference, NY Haskell Users Group">
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
-
-    <title>C◦mp◦se :: Conference</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
+<html>
+  {% include head.html %}
   <body data-spy="scroll" data-offset="0" data-target="#theMenu">
-    <section id="topheader">
-        <div id="hh">
-            <div class="col-lg-6 col-md-6 col-sm-4 col-xs-11">
-                <div class="col-inner-hori">
-                    <a href="../" id="logo-main" class="history" alt="" title="">
-                        <img src="assets/img/logo-no-text.svg" title="Compose Conference" alt="Compose Conference Logo" /></a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-8 col-xs-1">
-                <ul class="sections nav nav-pills nav-justified">
-                    <li class="hidden-xs"><a href="/2016/sponsors/">Sponsors</a></li>
-                    <li class="dropdown hidden-xs">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Schedule <span class="caret"></span></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="/2016/" class="smoothScroll">Program</a></li>
-                        <li><a href="/2016/speakers/" class="smoothScroll">Speakers</a></li>
-                        <li><a href="/2016/unconference/" class="smoothScroll">Unconference</a></li>
-                        <li><a href="/2016/workshops/" class="smoothScroll">Workshops</a></li>
-<!--                        <li class="divider"></li>
-                        <li><a href="/2016/unconference/">Unconference</a></li> -->
-                      </ul>
-                    </li>
-                    <li class="dropdown hidden-xs">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Attendees <span class="caret"></span></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="/2016/travel" class="smoothScroll">Travel</a></li>
-                        <li><a href="/conduct/" class="smoothScroll">Policies</a></li>
-                        <li><a href="#volunteer" class="smoothScroll">Volunteer</a></li>
-                        <li class="divider"></li>
-                        <li><a href="/jobs" class="smoothScroll">Job Board</a></li>
-                        <li class="divider"></li>
-                        <li><a href="/2016/cfp/" class="smoothScroll">CFP</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                        <!-- Menu -->
-                        <nav class="menu" id="theMenu">
-                            <div class="menu-wrap">
-                                <h1 class="logo"><a href="index.html#home">C◦mp◦se</a></h1>
-                                <i class="fa fa-times menu-close"></i>
-                                <a href="#about" class="smoothScroll">About</a>
-                                <a href="#" class="smoothScroll">Submit</a>
-                                <a href="https://composeconference.eventbrite.com" class="smoothScroll">Register</a>
+ <div id="wrap">
 
-                                <div class="visible-xs">
-                                    <a href="/2016/cfp/">CFP</a>
-                                    <a href="/2016/speakers" class="smoothScroll">Speakers</a>
-                                    <a href="/2016/speakers" class="smoothScroll">Program</a>
-                                    <a href="/2016/unconference/">Unconference</a>
-                                    <a href="/2016/sponsors/" class="smoothScroll">Sponsors</a>
-                                    <a href="/2016/conduct/">Policies</a>
-                                </div>
-
-                                <a href="http://twitter.com/composeconf"><i class="fa fa-twitter"></i></a>
-                                <a href="mailto:info@composeconference.org"><i class="fa fa-envelope"></i></a>
-                            </div>
-                            <!-- Menu button -->
-                            <div id="menuToggle"><i class="fa fa-bars"></i></div>
-                        </nav>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
+    {% include header2016.html %}
 
 	<div id="landingheader">
 		<div class="container">
