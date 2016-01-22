@@ -24,7 +24,7 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
 
   {% if speaker.start_time <= '2016-02-04 11:50:00 -0500' %}
     <tr>
-      <td>{{ speaker.start_time | date: '%H:%M%P' }} - {{ speaker.end_time | date: '%H:%M%P' }}</td>
+      <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
       <td>        
         <p class="lead">
           <b>{{ speaker.title }}</b> <br/>
@@ -45,7 +45,7 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
   {% if speaker.start_time >= '2016-02-04 12:50:00 -0500' %}
   {% if speaker.start_time <= '2016-02-04 15:10:00 -0500' %}
     <tr>
-      <td>{{ speaker.start_time | date: '%H:%M%P' }} - {{ speaker.end_time | date: '%H:%M%P' }}</td>
+      <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
       <td>        
         <p class="lead">
           <b>{{ speaker.title }}</b> <br/>
@@ -68,7 +68,7 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
   {% if speaker.start_time >= '2016-02-04 15:30:00 -0500' %}
   {% if speaker.start_time <= '2016-02-04 18:00:00 -0500' %}
     <tr>
-      <td>{{ speaker.start_time | date: '%H:%M%P' }} - {{ speaker.end_time | date: '%H:%M%P' }}</td>
+      <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
       <td>        
         <p class="lead">
           <b>{{ speaker.title }}</b> <br/>
@@ -99,7 +99,7 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
   {% if speaker.start_time >= '2016-02-05 00:00:00 -0500' %}
   {% if speaker.start_time <= '2016-02-05 11:30:00 -0500' %}
     <tr>
-      <td>{{ speaker.start_time | date: '%H:%M%P' }} - {{ speaker.end_time | date: '%H:%M%P' }}</td>
+      <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
       <td>        
         <p class="lead">
           <b>{{ speaker.title }}</b> <br/>
@@ -121,7 +121,7 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
   {% if speaker.start_time >= '2016-02-05 00:00:00 -0500' %}
   {% if speaker.start_time <= '2016-02-05 11:30:00 -0500' %}
     <tr>
-      <td>{{ speaker.start_time | date: '%H:%M%P' }} - {{ speaker.end_time | date: '%H:%M%P' }}</td>
+      <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
       <td>        
         <p class="lead">
           <b>{{ speaker.title }}</b> <br/>
@@ -142,7 +142,7 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
   {% if speaker.start_time >= '2016-02-05 15:10:00 -0500' %}
   {% if speaker.start_time <= '2016-02-05 18:00:00 -0500' %}
     <tr>
-      <td>{{ speaker.start_time | date: '%H:%M%P' }} - {{ speaker.end_time | date: '%H:%M%P' }}</td>
+      <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
       <td>        
         <p class="lead">
           <b>{{ speaker.title }}</b> <br/>
