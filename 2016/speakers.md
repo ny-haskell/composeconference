@@ -38,7 +38,7 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
       <h2>&nbsp;</h2>
-      <h3>&nbsp;</h3>
+      <h3><small>{{ speaker.start_time | date: '%h %-d, %I:%M%P'}}</small></h3>
       <p class="text-centered">
 {% if speaker.twitter %}
 <a href="http://twitter.com/{{ speaker.twitter }}">
