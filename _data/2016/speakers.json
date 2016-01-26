@@ -40,22 +40,22 @@
     {
       "name": "Eric Koskinen",
       "title": "Composing Temporal Effects",
-      "abstract": "In an ongoing project, we are demonstrating how one can enrich a 
-        functional language's type system to include temporal logic effects. 
-        As we recently showed (LICS 2014), these temporal effects can coexist 
-        with dependent types to express a wide range of specifications 
-        including safety (e.g. method foo(x,f) will not invoke f if x<0), 
-        termination (e.g. bar(y) terminates whenever y>0), and mixtures of the 
+      "abstract": "In an ongoing project, we are demonstrating how one can enrich a
+        functional language's type system to include temporal logic effects.
+        As we recently showed (LICS 2014), these temporal effects can coexist
+        with dependent types to express a wide range of specifications
+        including safety (e.g. method foo(x,f) will not invoke f if x<0),
+        termination (e.g. bar(y) terminates whenever y>0), and mixtures of the
         two. <br/><br/>
 
-        In this talk, I will introduce the audience to classic type and effect 
-        systems. Next, I will briefly show how we have enriched them with 
-        temporal effects. Finally, I will demonstrate how a programmer works 
-        with these effects and how our work-in-progress extension to the Ocaml 
+        In this talk, I will introduce the audience to classic type and effect
+        systems. Next, I will briefly show how we have enriched them with
+        temporal effects. Finally, I will demonstrate how a programmer works
+        with these effects and how our work-in-progress extension to the Ocaml
         compiler can automatically check and, in some cases, infer effects. <br/><br/>
 
-        This project, entitled Local Temporal Reasoning, is a collaboration 
-        between Eric Koskinen (Yale), Tachio Terauchi (JAIST), and Daniel 
+        This project, entitled Local Temporal Reasoning, is a collaboration
+        between Eric Koskinen (Yale), Tachio Terauchi (JAIST), and Daniel
         Dietsch (Univ. of Freiburg).",
       "start_time": "2016-02-04 15:30:00",
       "end_time": "2016-02-04 16:10:00"
@@ -180,26 +180,26 @@
     {
       "name": "Stephanie Weirich",
       "title": "Dynamic Typing in GHC",
-      "abstract": "The ability to perform type tests at runtime blurs the line between 
-        statically-typed and dynamically-typed languages. Recent developments in 
-        Haskell's type system allow even programs that use reflection to 
-        themselves be statically typed, using a type-indexed runtime representation 
+      "abstract": "The ability to perform type tests at runtime blurs the line between
+        statically-typed and dynamically-typed languages. Recent developments in
+        Haskell's type system allow even programs that use reflection to
+        themselves be statically typed, using a type-indexed runtime representation
         of types called TypeRep. <br/><br/>
 
-        The Glasgow Haskell Compiler currently supports the definition of a 
-        Dynamic type through the use of the Typeable type class. This definition 
-        works well with Haskell's open universe of types. All new types are 
-        automatically convertible to type Dynamic. However, this implementation of 
-        Dynamic is also unsafe: the implementation of operations such as 
-        dynApply---which applies one Dynamic as a function 
+        The Glasgow Haskell Compiler currently supports the definition of a
+        Dynamic type through the use of the Typeable type class. This definition
+        works well with Haskell's open universe of types. All new types are
+        automatically convertible to type Dynamic. However, this implementation of
+        Dynamic is also unsafe: the implementation of operations such as
+        dynApply---which applies one Dynamic as a function
         to another---requires unsafeCoerce. <br/><br/>
 
-        In this talk, I will present an improved interface in the Typeable type 
-        class, leading to a safer implementation of type Dynamic. Our revised 
-        Typeable class requires a new feature, kind equalities, that will 
+        In this talk, I will present an improved interface in the Typeable type
+        class, leading to a safer implementation of type Dynamic. Our revised
+        Typeable class requires a new feature, kind equalities, that will
         soon be available in GHC. <br/><br/>
 
-        (This is joint work with Simon Peyton Jones, Richard Eisenberg 
+        (This is joint work with Simon Peyton Jones, Richard Eisenberg
         and Dimitrios Vytiniotis.)",
       "twitter": "fancytypes",
       "github": "sweirich",
@@ -213,15 +213,15 @@
 
         I'll demonstrate how to compile a simple language to an SMT formula and analyze programs using the Haskell Z3 bindings. Z3 has bindings in other languages including OCaml and .NET, so these ideas will be immediately useful to everyone even if the details are slightly different from the Haskell code. The underlying ideas will also help people approach other problems with Z3.",
       "start_time": "2016-02-05 16:50:00",
-      "end_time": "2016-02-04 17:40:00"
+      "end_time": "2016-02-05 17:40:00"
     },
     {
       "name": "Zvonimir Pavlinovic, Tim King and Thomas Wies",
       "title": "Improving Type Error Localization for Languages with Type Inference",
       "abstract": "Functional programming languages have spearheaded groundbreaking innovations in programming language design and implementation. Garbage collection, type inference, higher-order functions, and polymorphic type abstractions are just some examples of innovative features that have emerged from research in these languages. Expert programmers cherish these features because they can significantly increase a programmer's productivity. However, these advanced language features are often difficult to master because they require a deep understanding of the inner workings of the compiler. <br/><br/>
 
-        Type inference is a prime example of a language feature that can boost productivity but can also be a usability nightmare. A type inference algorithm infers the types of expressions in a program based on how these expressions are used. The compiler can thus provide strong static correctness guarantees about a program without requiring the programmer to annotate the program with type information. On the other hand, automated type inference can also be counterproductive. If a conflicting use of an expression (i.e. a type mismatch) is detected, the compiler reports the corresponding program location as the source 
-        of the type error. However, the actual error source is often elsewhere in the program. This results in confusing error messages. The programmer needs to understand the basic workings of the inference algorithm to interpret the error message correctly and debug the program. This can often be a frustrating experience.<br/><br/> 
+        Type inference is a prime example of a language feature that can boost productivity but can also be a usability nightmare. A type inference algorithm infers the types of expressions in a program based on how these expressions are used. The compiler can thus provide strong static correctness guarantees about a program without requiring the programmer to annotate the program with type information. On the other hand, automated type inference can also be counterproductive. If a conflicting use of an expression (i.e. a type mismatch) is detected, the compiler reports the corresponding program location as the source
+        of the type error. However, the actual error source is often elsewhere in the program. This results in confusing error messages. The programmer needs to understand the basic workings of the inference algorithm to interpret the error message correctly and debug the program. This can often be a frustrating experience.<br/><br/>
 
         In this talk, we will explain how type inference algorithms work and why type error localization is so difficult in the presence of type inference. We will then present a new algorithm for localizing type errors that provides formal quality guarantees about the identified type error sources. The algorithm works efficiently in practice and has the potential to significantly improve the quality of type error reports produced by state-of-the-art compilers.",
       "start_time": "2016-02-05 09:00:00",
