@@ -25,20 +25,20 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
   {% if speaker.start_time <= '2016-02-04 11:50:00 -0500' %}
     <tr>
       <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
-      <td>        
+      <td>
         <p class="lead">
           <b>{{ speaker.title }}</b> <br/>
             <small>
                 {{ speaker.name }}
             </small>
-        </p> 
+        </p>
         <blockquote class="abstract">
             {{ speaker.abstract | markdownify }}
         </blockquote>
       </td>
     </tr>
   {% endif %}
-{% endfor %}                
+{% endfor %}
 <tr><td>11:50am - 12:50pm</td><td>Lunch<br/></td></tr>
 
 {% for speaker in sorted %}
@@ -46,13 +46,13 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
   {% if speaker.start_time <= '2016-02-04 15:10:00 -0500' %}
     <tr>
       <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
-      <td>        
+      <td>
         <p class="lead">
           <b>{{ speaker.title }}</b> <br/>
             <small>
                 {{ speaker.name }}
             </small>
-        </p> 
+        </p>
         <blockquote class="abstract">
             {{ speaker.abstract | markdownify }}
         </blockquote>
@@ -60,7 +60,7 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
     </tr>
   {% endif %}
   {% endif %}
-{% endfor %}   
+{% endfor %}
 
 <tr><td>3:10pm - 3:30pm</td><td>Break<br/></td></tr>
 
@@ -69,13 +69,13 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
   {% if speaker.start_time <= '2016-02-04 18:00:00 -0500' %}
     <tr>
       <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
-      <td>        
+      <td>
         <p class="lead">
           <b>{{ speaker.title }}</b> <br/>
             <small>
                 {{ speaker.name }}
             </small>
-        </p> 
+        </p>
         <blockquote class="abstract">
             {{ speaker.abstract | markdownify }}
         </blockquote>
@@ -83,8 +83,8 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
     </tr>
   {% endif %}
   {% endif %}
-{% endfor %}   
-             
+{% endfor %}
+
 </table>
 
 ---
@@ -100,13 +100,13 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
   {% if speaker.start_time <= '2016-02-05 11:30:00 -0500' %}
     <tr>
       <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
-      <td>        
+      <td>
         <p class="lead">
           <b>{{ speaker.title }}</b> <br/>
             <small>
                 {{ speaker.name }}
             </small>
-        </p> 
+        </p>
         <blockquote class="abstract">
             {{ speaker.abstract | markdownify }}
         </blockquote>
@@ -114,21 +114,21 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
     </tr>
   {% endif %}
   {% endif %}
-{% endfor %}                
+{% endfor %}
 <tr><td>11:30am - 12:30pm</td><td>Lunch<br/></td></tr>
 
 {% for speaker in sorted %}
-  {% if speaker.start_time >= '2016-02-05 00:00:00 -0500' %}
-  {% if speaker.start_time <= '2016-02-05 11:30:00 -0500' %}
+  {% if speaker.start_time >= '2016-02-05 12:30:00 -0500' %}
+  {% if speaker.start_time <= '2016-02-05 15:00:00 -0500' %}
     <tr>
       <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
-      <td>        
+      <td>
         <p class="lead">
           <b>{{ speaker.title }}</b> <br/>
             <small>
                 {{ speaker.name }}
             </small>
-        </p> 
+        </p>
         <blockquote class="abstract">
             {{ speaker.abstract | markdownify }}
         </blockquote>
@@ -136,20 +136,20 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
     </tr>
   {% endif %}
   {% endif %}
-{% endfor %}                
+{% endfor %}
 <tr><td>3:00pm - 3:10pm</td><td>Break<br/></td></tr>
 {% for speaker in sorted %}
   {% if speaker.start_time >= '2016-02-05 15:10:00 -0500' %}
   {% if speaker.start_time <= '2016-02-05 18:00:00 -0500' %}
     <tr>
       <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
-      <td>        
+      <td>
         <p class="lead">
           <b>{{ speaker.title }}</b> <br/>
             <small>
                 {{ speaker.name }}
             </small>
-        </p> 
+        </p>
         <blockquote class="abstract">
             {{ speaker.abstract | markdownify }}
         </blockquote>
@@ -157,7 +157,7 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
     </tr>
   {% endif %}
   {% endif %}
-{% endfor %} 
+{% endfor %}
 
 <tr><td>5:40-5:50pm</td><td>Closing</td></tr>
 </table>
@@ -168,6 +168,4 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
 
 ---
 
-The [C◦mp◦se :: Unconference and Exchange](../unconference) will occur following the conference on February 6th and 7th. Please [register](https://www.eventbrite.com/e/cmpse-unconference-and-exchange-2016-tickets-20455465849). for each event to attend both portions of C◦mp◦se. 
-
-
+The [C◦mp◦se :: Unconference and Exchange](../unconference) will occur following the conference on February 6th and 7th. Please [register](https://www.eventbrite.com/e/cmpse-unconference-and-exchange-2016-tickets-20455465849). for each event to attend both portions of C◦mp◦se.
