@@ -42,7 +42,7 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
 <tr><td>11:50am - 12:50pm</td><td>Lunch<br/></td></tr>
 
 {% for speaker in sorted %}
-  {% if speaker.start_time >= '2016-02-04 12:50:00 -0500' %}
+  {% if speaker.start_time >= '2016-02-04 12:40:00 -0500' %}
   {% if speaker.start_time <= '2016-02-04 15:10:00 -0500' %}
     <tr>
       <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
