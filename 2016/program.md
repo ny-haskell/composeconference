@@ -65,7 +65,7 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
 <tr><td>3:10pm - 3:30pm</td><td>Break<br/></td></tr>
 
 {% for speaker in sorted %}
-  {% if speaker.start_time >= '2016-02-04 15:30:00 -0500' %}
+  {% if speaker.start_time >= '2016-02-04 15:20:00 -0500' %}
   {% if speaker.start_time <= '2016-02-04 18:00:00 -0500' %}
     <tr>
       <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
@@ -118,7 +118,7 @@ Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventb
 <tr><td>11:30am - 12:30pm</td><td>Lunch<br/></td></tr>
 
 {% for speaker in sorted %}
-  {% if speaker.start_time >= '2016-02-05 12:30:00 -0500' %}
+  {% if speaker.start_time >= '2016-02-05 12:20:00 -0500' %}
   {% if speaker.start_time <= '2016-02-05 15:00:00 -0500' %}
     <tr>
       <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
