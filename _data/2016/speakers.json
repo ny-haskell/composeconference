@@ -38,29 +38,6 @@
       "end_time": "2016-02-05 10:40:00"
     },
     {
-      "name": "Eric Koskinen",
-      "title": "Composing Temporal Effects",
-      "abstract": "In an ongoing project, we are demonstrating how one can enrich a
-        functional language's type system to include temporal logic effects.
-        As we recently showed (LICS 2014), these temporal effects can coexist
-        with dependent types to express a wide range of specifications
-        including safety (e.g. method foo(x,f) will not invoke f if x<0),
-        termination (e.g. bar(y) terminates whenever y>0), and mixtures of the
-        two. <br/><br/>
-
-        In this talk, I will introduce the audience to classic type and effect
-        systems. Next, I will briefly show how we have enriched them with
-        temporal effects. Finally, I will demonstrate how a programmer works
-        with these effects and how our work-in-progress extension to the Ocaml
-        compiler can automatically check and, in some cases, infer effects. <br/><br/>
-
-        This project, entitled Local Temporal Reasoning, is a collaboration
-        between Eric Koskinen (Yale), Tachio Terauchi (JAIST), and Daniel
-        Dietsch (Univ. of Freiburg).",
-      "start_time": "2016-02-04 15:30:00",
-      "end_time": "2016-02-04 16:10:00"
-    },
-    {
       "name": "Kenneth Foner",
       "title": "'There and Back Again' and What Happened After",
       "abstract": "Danvy and Goldberg's 'There and Back Again,' <sup>1</sup> puts the 'fun' in 'functional pearl.' This classic, underappreciated paper describes a clever new pattern for implementing a large family of functions over lists while using only one traversal, rather than the multiple traversals that many other approaches require. The technique naturally gives rise to elegant algorithms for computing symbolic convolutions, generalized palindrome tests, and Catalan numbers. <br/><br/>
@@ -75,8 +52,8 @@
       "twitter": "kfoner",
       "github": "kwf",
       "irc_handle": "kwf",
-      "start_time": "2016-02-04 16:10:00",
-      "end_time": "2016-02-04 17:00:00"
+      "start_time": "2016-02-04 15:30:00",
+      "end_time": "2016-02-04 16:10:00"
     },
     {
       "name": "Jared Hester",
@@ -148,8 +125,8 @@
       "name": "Paulmichael Blasucci",
       "title": "(Nearly) Everything You Ever Wanted to Know About F# Active Patterns but were Afraid to Ask",
       "abstract": "This presentation will provide a concise, but thorough, review of one of the more unique features of the F# language: active patterns. Also known as active recognizers, this feature allows one to extend the pattern-matching capabilities of the language. Active patterns may be put to great effect in taming unruly APIs, improving the declarative style of one's code, constructing embedded DSLs, and much more. This talk will be given in a lecture format, interspersing digestible code samples with detailed breakdown of syntax. Additional consideration will be given, time permitting, to appropriate use-cases for active patterns and a discussion of the underlying mechanics. The review is aimed at advanced beginners who are familiar with F#'s general syntax and usage. Also, while not strictly necessary, those wishing to follow along via computer are encouraged to have, at least, version 2.0 of the core F# tools. Information on obtaining the latest version of F# (for your platform of choice) may be found at: http://fsharp.org.",
-      "start_time": "2016-02-04 17:00:00",
-      "end_time": "2016-02-04 17:40:00"
+      "start_time": "2016-02-04 16:10:00",
+      "end_time": "2016-02-04 17:00:00"
     },
     {
       "name": "Rachel Reese",
