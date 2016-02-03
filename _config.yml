@@ -2,7 +2,7 @@ name: "Compose Conference"
 description: "The practice and craft of functional programming"
 archives: [2015]
 
-markdown: rdiscount
+markdown: kramdown
 permalink: /:title/
 highlighter: pygments
 
@@ -37,3 +37,7 @@ url:
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
+
+kramdown:
+  input: GFM
+  hard_wrap: false
