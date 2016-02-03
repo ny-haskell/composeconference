@@ -38,7 +38,7 @@ To find out how to be a sponsor, please take a look at [this page](prospectus) f
               <div class="panel-heading">Jane Street</div>
               <div class="panel-body">
                   <p class="text-center">
-                  <a href="https://www.janestreet.com/">
+                  <a href="https://www.janestreet.com/programming/">
                   <img src="/assets/img/logos/jane_st.jpeg" class="img-responsive" alt="Jane Street" />
                       <br/>
                   </a>
