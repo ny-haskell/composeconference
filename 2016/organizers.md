@@ -13,13 +13,13 @@ permalink: /2016/organizers/
 			<img src="{{ person.photo }}" class="img-responsive img-rounded" />
 			<h2>{{ person.name }}</h2>
 			<h3></h3>
-			<p style="min-height:60px;"> 
+			<p style="min-height:60px;">
 			{{ person.bio }}
 			</p>
 			</div>
 {% endfor %}
-		</div><! --/row --> 
-	</div><! --/container -->
+</div><!--/row -->
+</div><!--/container -->
 </div>
 
 <hr style="border:1px dotted #efefee "/>
