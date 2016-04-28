@@ -26,6 +26,18 @@ To find out how to be a sponsor, please take a look at [this page](prospectus) f
       </div>
       <p></p>
   </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+      <div class="panel panel-default">
+          <div class="panel-heading">VFILES</div>
+          <div class="panel-body centered">
+              <a href="http://www.vfiles.com/">
+              <img src="/assets/img/logos/vfiles_logo_yellow.svg" class="img-responsive" alt="VFILES">
+                  <br>
+              </a>
+          </div>
+      </div>
+      <p></p>
+  </div>
 </div>
 
 <hr style="color: #ddd; border-color: #ddd; border-style:dotted">
