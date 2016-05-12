@@ -37,7 +37,7 @@ permalink: /2016/cfp/
       <i class="fa fa-square-o fa-stack-2x"></i>
       <i class="fa fa-pencil fa-stack-1x"></i>
     </span>
-</div><!--/col-lg-4-->
+</div>
 
 <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
     <h2>C◦mp◦se :: Conference 2016</h2>
@@ -59,14 +59,14 @@ permalink: /2016/cfp/
         <p></p>
     </div>
 
-</div><!--/col-lg-8-->
+</div>
 
 <div id="diversity">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 name">
                 <p>Diversity</p>
-            </div><! --/col-lg-4-->
+            </div>
             <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
                 <div class="col-md-9 col-md-9 col-sm-9">
                     <p>We would like to put an emphasis on soliciting a diverse set of speakers - anything you can do to distribute information about this CFP and encourage submissions from under-represented groups would be greatly appreciated. We welcome your contributions and encourage you to apply!</p>
@@ -75,8 +75,7 @@ permalink: /2016/cfp/
                     <p></p>
                 </div>
 
-            </div><! --/col-lg-8-->
-
-        </div><!-- /row -->
-    </div><!-- /container -->
+            </div>
+        </div>
+    </div>
 </div><!-- /diversity -->

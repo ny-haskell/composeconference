@@ -21,7 +21,8 @@
 
       In summary, the talk aims to show that FLTKHS is ready for use today and has a lot of advantages but will also be honest about mistakes made and why one might not want to use it.",
       "start_time": "2016-02-05 10:40:00",
-      "end_time": "2016-02-05 11:30:00"
+      "end_time": "2016-02-05 11:30:00",
+      "youtubeId": "5hoQLovZBxQ"
     },
     {
       "name": "Austin Seipp",
@@ -35,7 +36,8 @@
       "github": "thoughtpolice",
       "irc_handle": "thoughtpolice",
       "start_time": "2016-02-05 09:50:00",
-      "end_time": "2016-02-05 10:40:00"
+      "end_time": "2016-02-05 10:40:00",
+      "youtubeId": "sC2_5WaavFc"
     },
     {
       "name": "Kenneth Foner",
@@ -53,7 +55,8 @@
       "github": "kwf",
       "irc_handle": "kwf",
       "start_time": "2016-02-04 15:30:00",
-      "end_time": "2016-02-04 16:10:00"
+      "end_time": "2016-02-04 16:10:00",
+      "youtubeId": "u_OsUlwkmBQ"
     },
     {
       "name": "Jared Hester",
@@ -76,7 +79,8 @@
 
         I've used F# and now OCaml to analyze data professionally for the past 10 years. Now at Hammer Lab, I've used some of the algorithms in this library to analyze a protein binding problem. I find working in the REPL an invaluable (and intuitive) experience for exploratory data analysis; types force the developer to be concise in their transformation of complex data. At the same time Oml aims to be easy in transforming that data into numerical patterns.",
       "start_time": "2016-02-04 10:30:00",
-      "end_time": "2016-02-04 11:10:00"
+      "end_time": "2016-02-04 11:10:00",
+      "youtubeId": "czZ18YtZlaw"
     },
     {
       "name": "Luite Stegeman",
@@ -106,7 +110,8 @@
 
         Let's explore some of the opportunities presented by the flexibility and hackability of library operating systems! Examples will be given using MirageOS, a OCaml library OS framework.",
       "start_time": "2016-02-04 13:40:00",
-      "end_time": "2016-02-04 14:20:00"
+      "end_time": "2016-02-04 14:20:00",
+      "youtubeId": "uXt4a_46qZ0"
     },
     {
       "name": "Niki Vazou",
@@ -126,14 +131,16 @@
       "title": "(Nearly) Everything You Ever Wanted to Know About F# Active Patterns but were Afraid to Ask",
       "abstract": "This presentation will provide a concise, but thorough, review of one of the more unique features of the F# language: active patterns. Also known as active recognizers, this feature allows one to extend the pattern-matching capabilities of the language. Active patterns may be put to great effect in taming unruly APIs, improving the declarative style of one's code, constructing embedded DSLs, and much more. This talk will be given in a lecture format, interspersing digestible code samples with detailed breakdown of syntax. Additional consideration will be given, time permitting, to appropriate use-cases for active patterns and a discussion of the underlying mechanics. The review is aimed at advanced beginners who are familiar with F#'s general syntax and usage. Also, while not strictly necessary, those wishing to follow along via computer are encouraged to have, at least, version 2.0 of the core F# tools. Information on obtaining the latest version of F# (for your platform of choice) may be found at: http://fsharp.org.",
       "start_time": "2016-02-04 16:10:00",
-      "end_time": "2016-02-04 17:00:00"
+      "end_time": "2016-02-04 17:00:00",
+      "youtubeId": "AQ-8_8hfmGE"
     },
     {
       "name": "Rachel Reese",
       "title": "Chaos Testing at Jet",
       "abstract": "Some of the biggest growing pains we've experienced with our microservice architecture at Jet is in preparing for system outages. I'll discuss our chaos testing methods and the F# code we're using in depth, as well as lay out a path to implementation that everyone can use.",
       "start_time": "2016-02-04 14:20:00",
-      "end_time": "2016-02-04 15:10:00"
+      "end_time": "2016-02-04 15:10:00",
+      "youtubeId": "Q1tgb3m0Fy4"
     },
     {
       "name": "Riccardo Terrell",
@@ -152,7 +159,8 @@
       "github": "S11001001",
       "irc_handle": "S11001001",
       "start_time": "2016-02-04 11:10:00",
-      "end_time": "2016-02-04 11:50:00"
+      "end_time": "2016-02-04 11:50:00",
+      "youtubeId": "BHjIl81HgfE"
     },
     {
       "name": "Stephanie Weirich",
@@ -181,7 +189,8 @@
       "twitter": "fancytypes",
       "github": "sweirich",
       "start_time": "2016-02-04 12:50:00",
-      "end_time": "2016-02-04 13:40:00"
+      "end_time": "2016-02-04 13:40:00",
+      "youtubeId": "asdABzBUoGM"
     },
     {
       "name": "Tikhon Jelvis",
@@ -202,7 +211,8 @@
 
         In this talk, we will explain how type inference algorithms work and why type error localization is so difficult in the presence of type inference. We will then present a new algorithm for localizing type errors that provides formal quality guarantees about the identified type error sources. The algorithm works efficiently in practice and has the potential to significantly improve the quality of type error reports produced by state-of-the-art compilers.",
       "start_time": "2016-02-05 09:00:00",
-      "end_time": "2016-02-05 09:50:00"
+      "end_time": "2016-02-05 09:50:00",
+      "youtubeId":  "BMT6MZ5zuvw"
     }
   ]
 }
